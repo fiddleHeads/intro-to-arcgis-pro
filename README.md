@@ -1,4 +1,4 @@
-# Intro to GIS for Map Production with ArcPro
+# Map Production in GIS with ArcGIS Pro
 
 Introduction
 User Interface
