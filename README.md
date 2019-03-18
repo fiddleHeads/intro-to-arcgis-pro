@@ -24,7 +24,7 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 ---
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download the data and files here: **XXXXX**. Save this file (.**zip**) to your Desktop.
+To get started with this workshop, you'll need to first download the data and files :exclamation: here :exclamation:. Save this file (.**zip**) to your Desktop.
 1. Right-click on the .zip file you just downloaded and select **Extract All**...
 2. Accept all defaults to extract the file.    
 
@@ -35,6 +35,15 @@ Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which c
 - Index: folder with background organizing information
 
 ## USER INTERFACE
+ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended. Students at the University of British Columbia can find out more information on the price and availability of ArcGIS Pro software :exclamation: here :exclamation:.
+
+Open the software and get familiar with the default user interface.
+1. In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro.
+2. In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (**.aprx**), and open the ArcGIS Pro main user interface.
+3. In the new dialog window, click ok to accept the defaults and finish creating your new project.
+
+You should see something like this:
+:exclamation:[image]:exclamation:
 
 #### Basic Components
 ### Tabbed Menus
