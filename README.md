@@ -35,7 +35,7 @@ Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which c
 - Index: folder with background organizing information
 
 ## USER INTERFACE
-ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended. Students at the University of British Columbia can find out more information on the price and availability of ArcGIS Pro software :exclamation: here :exclamation:.
+ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended. Those of you at the University of British Columbia can find more information about the availability of ArcGIS Pro software :exclamation: here :exclamation:.
 
 Open the software and get familiar with the default user interface.
 1. In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro.
@@ -45,7 +45,13 @@ Open the software and get familiar with the default user interface.
 You should see something like this:
 :exclamation:[image]:exclamation:
 
-#### Basic Components
+#### Main Components
+The ArcGIS Pro user interface (UI) has a few main components:
+- The **Map Frame**: This is where your data will be visualized.
+- The **Contents Pane**: This will likely be your most used "tabbed" window because it's where you'll interact with your data. As you add data to your project, they'l appear here as **layers**.
+- The **Catalogue Pane**: This pane is similar to Windows Explorer, or Mac Finder. You can create connections to data sources (drives, folders, networks, etc.) and perform several data maintenance and management tasks in this pane. The search option is also available here, which is used to search for tools, documents, and data.
+- **Menu Tabs**: These are located at the top of the main UI
+
 ### Tabbed Menus
 ### File Browser
 ## Map Document
