@@ -52,6 +52,8 @@ The ArcGIS Pro user interface (UI) has a few main components:
 - The **Catalogue Pane**: This pane is similar to Windows Explorer, or Mac Finder. You can create connections to data sources (drives, folders, networks, etc.) and perform several data maintenance and management tasks in this pane. The search option is also available here, which is used to search for tools, documents, and data.
 - **Menu Tabs**: These are located at the top of the main UI
 
+:exclamation:[image showing the main UI components]:exclamation:
+
 ### Tabbed Menus
 ### File Browser
 ## Map Document
