@@ -11,7 +11,7 @@ Exporting and Saving
 
 [menu]
 
-# Introduction
+## INTRODUCTION
 
 #### GIS Resources at UBC:
 - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)    
@@ -21,16 +21,19 @@ Exporting and Saving
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download the data and files here: **XXXXX**. Save this file (.zip) to your Desktop.
+To get started with this workshop, you'll need to first download the data and files here: **XXXXX**. Save this file (.**zip**) to your Desktop.
 1. Right-click on the .zip file you just downloaded and select **Extract All**...
 2. Accept all defaults to extract the file.    
 
-Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which contains:
+Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which contains the files:
+- Intro.**gdb**: the geodatabase with data for your map
+- Intro.**aprx**: the project file with all the maps
+- Intro.**tbx**: a toolbox with analytical tools for your project
+- Index: folder with background organizing information
 
+## USER INTERFACE
 
-
-## User Interface
-### Basic Components
+#### Basic Components
 ### Tabbed Menus
 ### File Browser
 ## Map Document
