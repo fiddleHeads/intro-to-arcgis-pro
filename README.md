@@ -43,7 +43,7 @@ Open the software and get familiar with the default user interface.
 3. In the new dialog window, click ok to accept the defaults and finish creating your new project.
 
 You should see something like this:
-:exclamation:[image]:exclamation:
+:exclamation:[image showing the main UI components]:exclamation:
 
 #### Main Components
 The ArcGIS Pro user interface (UI) has a few main components:
@@ -51,8 +51,6 @@ The ArcGIS Pro user interface (UI) has a few main components:
 - The **Contents Pane**: This will likely be your most used "tabbed" window because it's where you'll interact with your data. As you add data to your project, they'l appear here as **layers**.
 - The **Catalogue Pane**: This pane is similar to Windows Explorer, or Mac Finder. You can create connections to data sources (drives, folders, networks, etc.) and perform several data maintenance and management tasks in this pane. The search option is also available here, which is used to search for tools, documents, and data.
 - **Menu Tabs**: These are located at the top of the main UI
-
-:exclamation:[image showing the main UI components]:exclamation:
 
 ### Tabbed Menus
 ### File Browser
