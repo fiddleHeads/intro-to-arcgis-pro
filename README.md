@@ -71,9 +71,9 @@ Note that there are more files in this folder than there are Shapefiles as ArcGI
 2. Select the **Desktop** icon and click **OK**.
 3. Expand the resulting **Folder Connection** in the **Catalog Window** and expand the folder::exclamation: **XXXX.gdb**.:exclamation:
 
-Note that the features simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it better for you to to only see the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
+Note that the features are simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it's better just to show the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
 
-### Open a Project
+## OPEN A PROJECT
 
 
 
