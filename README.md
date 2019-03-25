@@ -63,10 +63,20 @@ The first step we will want to take is to insert a new map in our UI.
 Using the **Catalog Title Bar**, click and drag the Catalog Pane away from its docked position. Notice the "docking arrows" that appear as you move the window.
 
 #### Explore the Windows (Catalog)
+Using the Windows Explorer, :eight_spoked_asterisk: navigate to the **Intro-to-ArcGIS-Pro** directory where you extracted this workshop's files, and click into the **Data** folder.
+
+Note that there are more files in this folder than there are Shapefiles as ArcGIS Pro shows. This is because a Shapefile is not actually _a file_, but instead _a collection of files_.
+
+1. Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Connect Folder** (or **Go to Insert**) **> Add Folder**
+2. Select the **Desktop** icon and click **OK**.
+3. Expand the resulting **Folder Connection** in the **Catalog Window** and expand the folder::exclamation: **XXXX.gdb**.:exclamation:
+
+Note that the features simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it better for you to to only see the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
+
+### Open a Project
 
 
 
-### File Browser
 ## Map Document
 ### Absolute vs Relative Paths
 ### Coordinate Reference Systems
