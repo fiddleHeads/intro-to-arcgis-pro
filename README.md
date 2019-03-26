@@ -73,33 +73,72 @@ Note that there are more files in this folder than there are Shapefiles as ArcGI
 
 Note that the features are simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it's better just to show the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
 
-## OPEN A PROJECT
+## STARTING A PROJECT
+### Map Projects
+
+So what exactly is an **ArcGIS Pro Project**? When you first add a blank map and begin "_adding_" data and creating different symbologies, labeling schemes, etc., you are modifying a Map Project. The word _adding_ is emphasized because you are not actually adding data. Instead, you are _linking_ data using file paths. The reason for this is because often times GIS data is several megabytes or even gigabytes in filesize. Having all of that data displayed in your map project would be impractical and taxing on your computer. So, the project doesn't actually contain the data, but only links to it. Map Projects are then configured with styles, symbologies, labels, etc.
+
+Go to **Project > Open** and open the map document called :exclamation: . This file will be the only file with the **.aprx** extension. Notice that the home folder in Catalog has changed to the one used for the **.aprx** file.
+
+#### Fixing Broken Links
+
+You'll see that your layers (in your **Contents Pane**) have a small :exclamation: next to them. This means that you're experiencing the **Broken Link** issue - which is VERY common when working in GIS with layers and the paths pointing to them. You'll need to fix them to continue.
+
+1. Click on the :exclamation: of one of the layers.
+2. Navigate to the XXXX.gdb of the tutorial dataset and select the Shapefile that corresponds to the layer you clicked and select **OK**.
+
+Since all your layers are in the same directory, all of your layers should now be repaired. It's generally good practice to have your data organized logically, which will help to fix the inevitable broken link issue.
 
 
+## MAPS AND MAP PROPERTIES
 
-## Map Document
-### Absolute vs Relative Paths
-### Coordinate Reference Systems
-## Data Navigation and Visibility
-### Zooming and Panning
-### Bookmarks
-### Layer Order and Visibility
-## Layer Properties
+### Projections and Coordinate Reference Systems
+
+#### Change a Coordinate Reference System
+
+### Explore Navigation and Tools in Data Frames
+
+#### Zoom to layer
+
+#### Bookmarks
+
+### Working with Layers
+
+#### Layer Visibility
+
+#### Display order
+
+#### Feature Layer Tab
+
 ### Layer Attributes
-### Editing Attributes
-### Selecting by Attributes
-### Creating New Layer from Selection
-## Data Styling
+
+#### Select by Attributes
+
 ### Symbology
-### Labeling
-## Data Processes
-### Joining a Table
-### Spatial Join
-## Exporting and Saving
-### Print Composer
-### Adding Map Elements
-### Exporting
-### Saving Project
-### Saving Data
+
+### Labels
+
+### Adding Data
+
+### Joining Tables
+
+### Definition Queries
+
+### Symbology - Graduated Colours
+
+## EXPORTING AND SAVING
+
+### Layout Mode
+
+### The Map Frame
+
+### Layout Navigation
+
+#### Resizing the Data Frame
+
+#### Adding Map Elements
+
+### Export Your Map
+
 ## What's Next?
 ### Thanks - Stanford Geospatial Center
