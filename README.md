@@ -1,4 +1,5 @@
 # Map Production in GIS with ArcGIS Pro
+
 <p align="center">
   <a href="#introduction">Introduction</a>&nbsp;|
   <a href="#user-interface">User Interface</a>&nbsp;|
