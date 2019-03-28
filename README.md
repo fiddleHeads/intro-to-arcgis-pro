@@ -89,7 +89,6 @@ You'll see that your layers (in your **Contents Pane**) have a small :exclamatio
 
 Since all your layers are in the same directory, all of your layers should now be repaired. It's generally good practice to have your data organized logically, which will help to fix the inevitable broken link issue.
 
-
 ## MAPS AND MAP PROPERTIES
 In the **Contents Panel** you should see an item named **Layers**, followed by 3 layers corresponding to the Feature Classes in your Geodatabase. The “Map” item at the top of the Contents Panel represents the Data Frame which contains all of your layers. Click **List By Source** near the top left of the **Contents Panel**.
 
@@ -109,7 +108,7 @@ Because of the issues with working with data in different projections in the sam
 2.	**Click** on the **Coordinate System Tab** and expand the **Layers Folder** in the “**Select a Coordinate System:**” panel.
 3.	**Expand** the **Layers Folder** and **select** the **GCS_WGS_1984 Projection** file. **Click OK**.
 4.	**Click Save**
-(AutoSave Option is available under Project>Options>Editing>Session)
+(Auto-save option is available under Project > Options > Editing > Session)
 
 What you have just done is reassigned the coordinate system of the **Map Frame** to that of the **Street Trees Layer**:exclamation:. This (XXXX:exclamation:) is actually the coordinate system of all of the layers in your **Contents**, so you should experience an increase in drawing performance, since ArcGIS Pro is no longer projecting these layers on-the-fly to the :exclamation:World from Space projection (which was chosen for its extremity, in this case):exclamation:. The result of this change should be a substantial change to the view on the Map.
 
@@ -147,11 +146,16 @@ The **Layer Order** in the **Table of Contents** determines the order of display
 The **Table of Contents** also controls Layer Visibility.  You can toggle the Layer Visibility using the checkbox next to each Layer in the Table of Contents.
 - Use the Visibility Checkbox next to the XXXX:exclamation: Layer to turn off the visibility of the layer and reveal the other layers again.
 
-#### Display order
-
 #### Feature Layer Tab
+Almost everything you might want to do with a layer can be done under the **Feature Layer** tabs.  There are often short-cuts to do these tasks also, but the **Feature Layer** tab can help you first find ways to work with layers.  
+
+_(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
+
+1. Click onto the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
+2. Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’.  
 
 ### Layer Attributes
+The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing a specific subset of trees. First, we need to see if the data necessary to do this exists in our dataset.
 
 #### Select by Attributes
 
