@@ -25,7 +25,7 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 ---
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download the data and files :exclamation: here :exclamation:.
-1.  Save this file (.**zip**) to your Desktop.
+1. Save this file (.**zip**) to your Desktop.
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
 
@@ -91,10 +91,26 @@ Since all your layers are in the same directory, all of your layers should now b
 
 
 ## MAPS AND MAP PROPERTIES
+In the **Contents Panel** you should see an item named **Layers**, followed by 3 layers corresponding to the Feature Classes in your Geodatabase. The “Map” item at the top of the Contents Panel represents the Data Frame which contains all of your layers. Click **List By Source** near the top left of the **Contents Panel**.
+
+Note that the layers are organized underneath the path at which they are located. If this Map Document contained links to datasets in other locations, they would be listed under that path or network address.
 
 ### Projections and Coordinate Reference Systems
+Coordinate systems tell your map how to project the geography of our spherical world, onto a flat screen. The datasets used in this map are actually all in the same projection (XXX :exclamation:) though it is not the one currently being used to display the data. In GIS, datasets have their own explicitly defined Projection/Coordinate Systems, while the Map Frame can also have a different Projection/Coordinate System.  
+
+This allows you to add geographic data with different native Coordinate Systems to your map. ArcGIS Pro will treat the Data Frame’s Coordinate System as the Map’s Lingua Franca, projecting (on the fly) all of the new datasets to the Data Frame Projection. While convenient, it comes at a cost: Map Documents that make use of this type of on-the-fly projection render the data in the Data Frame at a much slower rate.  
+
+In addition, disparate Projection/Coordinate Systems can cause major issues and errors when analyzing across layers (i.e. when geoprocessing that requires transfer of attributes across layers).
 
 #### Change a Coordinate Reference System
+Because of the issues with working with data in different projections in the same data frame, **it is good practice to select a Projection/Coordinate system that is suitable for your particular analysis and scale, and project all of your data to the same**. Do do that:
+
+1.	**Right-click** on the **Map Item** at the top of the **Table of Contents** and select **Properties**…
+2.	**Click** on the **Coordinate System Tab** and expand the **Layers Folder** in the “**Select a Coordinate System:**” panel.
+3.	**Expand** the **Layers Folder** and **select** the **GCS_WGS_1984 Projection** file. **Click OK**.
+4.	**Click Save** 
+(AutoSave Option is available under Project>Options>Editing>Session)
+
 
 ### Explore Navigation and Tools in Data Frames
 
