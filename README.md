@@ -156,11 +156,45 @@ _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature 
 
 ### Layer Attributes
 The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing a specific subset of trees. First, we need to see if the data necessary to do this exists in our dataset.
+1. **Right-Click** on the **Street Trees** layer and select **Open Attribute Table** to open the **Attribute Table** of the layer.
+2. **Click**, **drag** and **move** around the resulting table window. You can dock it again using the **Docking Square**.
+3. **Scroll** to the right until you can see the **POP**, **POP_RANK** and **POP_CLASS** :exclamation: attribute fields.
+4. **Right-click** on the **POP** field header and select Sort Descending.
+5. **Scroll** down through the attribute table to examine the relationship between these three variables.
 
 #### Select by Attributes
+What we would like to do is select all of the trees in this dataset that of a specific type. This can be accomplished using either of two variables, but we will use the **NAME** :exclamation: variable because most people know trees by this name.  
+1. On the **Map Tab**, go to the **Selection Tool**.
+2. Find and click on the **Select by Attributes** button.
+
+Pin the Geoprocessing Pane and set the following parameters:
+
+-	Layer Name: Cities
+- Selection type: New Selection
+- Click: Add Clause
+
+On the Expression:
+
+-	Field: Pop_Rank
+- is Less Than or Equal
+- Value: 2
+
+
+1. Click **Add**.
+2. Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
+3. Scroll through the attribute table and note the records that are selected.
+4. You can observe that the selection from the attribute table is also reflected in the map.
+
+Notice that the selection looks more manageable that the full dataset.  Now you will export this selection as a new Shapefile, and bring it back into the map as a new layer. As you do this, you will take advantage of a sort of “universal task" in ArcGIS Pro. Anytime you have selected a subset of one of your data layers ArcGIS Pro will only act on that subset while it is active. This means that geoprocessing, attribute calculations, data exports, etc., act as if the active selection is the whole of the dataset. This can come in quite handy.
+
+1. Right-click on the **Street Trees** layer in the **Contents** and select **Data > Export Features** …
+(_The option is also available under the **Feature Layer** set **> Data Tab > Export** block_).
+2. In the **Copy Features** window click on the **Browse** button to save the feature class into the XXXX:exclamation:.gdb to save as Trees_XXXX:exclamation:. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
+3. Click **Run**.
+4. Right-click on the original Street_Trees layer and select **Remove**.
 
 ### Symbology
-
+Now we have two classes of STREET_TREES :exclamation: to work with, and would like to distinguish them from one another visually.
 ### Labels
 
 ### Adding Data
