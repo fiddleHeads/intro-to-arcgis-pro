@@ -195,7 +195,24 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 
 ### Symbology
 Now we have two classes of STREET_TREES :exclamation: to work with, and would like to distinguish them from one another visually.
+
+1. Right-Click on the new Trees_XXXX :exclamation: layer and on the **Menu Bar** go to **Appearance > Symbology**.
+2. Click on the **Symbology** option and select **Unique Values**.
+3. Change the **Value Field** to **XXXX** :exclamation:.
+4. Click on the **More** option and uncheck the **Show all other values** item.
+5. Click **Symbols (Circles)** to open the **Format Point Symbol**.
+6. On the resulting **Symbol Selector Gallery** select **Circle 1**.
+7. Beside the **Gallery** options, click **Properties** and set its size to **4 points**. Click apply and use the **Go Back** arrow to return to the **Symbology Tab**.
+8. Using the same method, change the symbol for the “XXXX” :exclamation: item to **Circle 1** with a size of **10 points**.
+9. Go Back to the **Contents Panel** (Tabbed at the bottom).
+10.	Click **Save**.
+
 ### Labels
+Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees with a XXXX value of XXXX :exclamation:.
+
+1.	_Right-Click on the XXXX :exclamation: layer and select **Label**, or go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default. Because there are so many visible features in this layer, this creates an unreadable labeling scheme. To remedy this, we will limit labeling to the largest cities in the Major Cities Layer._
+2. _Right-click on the XXXX Layer and select Labeling Properties or on the Label Class, select the SQL button._
+
 
 ### Adding Data
 
