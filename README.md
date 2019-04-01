@@ -288,12 +288,33 @@ Often, you will want to provide a cartographic basemap for your data in order to
 1. On the Insert Tab > Project Toolbar, click New Layout.
 2. In the resulting window, select Letter Landscape.  
 
+_Note that a new Layout ‘window’ tab has opened next to the Map tab. You can switch back and forth._
 
 ### The Map Frame
+Note that the Layout Toolbar (Insert Tab) is now active and that many of the tools on this toolbar look similar to those on the Tools Toolbar, with one very important difference.  Now that you are in Layout Mode, your need to add a Map Frame to a piece of paper.
+
+1.	On the Insert Tab > Map Frames Toolbar, click Map Frame.
+2.	In the resulting window, select Default, but notice the Europe and Asia Bookmark is there.   
 
 ### Layout Navigation
+Using the Layout Tab that now activates, take a moment to explore the Layout Toolbar.
+Notice how the Navigate options behavior differ from the Navigate on Map Mode.
 
 #### Resizing the Data Frame
+Because the map is not the same proportions as the page, the border is larger than the frame; we will want to alter the size of the Map Frame (not the Page Size) to the size we desire for our final image.
+
+1. Click on the Map Frame and notice that a Map Frame Format tab activates
+2.	Click on the Size and Position Toolbar and set the Frame Size as Width to 8.3 inches and the Height to 5 inches.
+3.	Press Align Center and Align Middle, to center the map on the page. (If not active, make sure the Align to Page is checked)
+4.	On the Frame Tab, go to Current Selection and change the Map Frame to Border
+5.	Change the border weight to 4 points.  
+6.	Assign a Gap of 10 pts for both the X and Y tabs.
+7.	On the Layout Toolbar, go to Bookmarks and select your Europe & Asia bookmark
+8.	Click on the Activate Tool (Layout Tab >Map Toolbars) or   right-click  on the map itself and select “Activate”
+Now you can move the map around, pan and zoom in and out until you get the map the way you want to see it.
+9.	Go back to the  Layout Tab, under Activated Map Frame  and select Close Activation
+10.	Then, at the top of the page, under the Map Frame set, go to Layout. Now the Navigation tools show a different set of options and if you zoom, you’ll zoom in and out of the page itself. 
+
 
 #### Adding Map Elements
 
