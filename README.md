@@ -1,3 +1,8 @@
+# Intro to ArcGIS Pro
+### UBC Library Research Commons
+   
+Link to workshop: https://fiddleheads.github.io/intro-to-arcgis-pro/
+
 # Map Production in GIS with ArcGIS Pro
 
 <p align="center">
