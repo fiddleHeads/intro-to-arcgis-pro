@@ -31,6 +31,7 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 ---
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download a spreadsheet of street data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/)
+
 Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=csv&timezone=America/Los_Angeles&lang=en&use_labels_for_header=true&csv_separator=%3B){: .btn .btn-blue }
 1. Save this file (.**zip**) to your Desktop.
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
