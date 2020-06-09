@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Introduction
+title: Map Production in GIS with ArcGIS Pro
 nav_order: 1
+has_children: true
 ---
 
 # Map Production in GIS with ArcGIS Pro
