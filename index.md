@@ -17,7 +17,7 @@ has_children: true
   <a href="#what-next?">What Next?</a>
 </p>
 
-## INTRODUCTION
+# INTRODUCTION
 
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **ArcGIS Pro** for exploring and analyzing spatial data.
 
@@ -30,7 +30,8 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 ---
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download the data and files :exclamation: here :exclamation:.
+To get started with this workshop, you'll need to first download a spreadsheet of street data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/)
+Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=csv&timezone=America/Los_Angeles&lang=en&use_labels_for_header=true&csv_separator=%3B){: .btn .btn-blue }
 1. Save this file (.**zip**) to your Desktop.
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
