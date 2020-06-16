@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Title of page, will appear in left navigation menu
+title: Working with Layers
 nav_order: 5
 ---
 
