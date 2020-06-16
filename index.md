@@ -26,7 +26,6 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - UBC Library's guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](http://guides.library.ubc.ca/gis)
 - UBC's GIS email list (participate or lurk!): [UBC GIS ListServ](https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&A=1)  
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
-- Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 ---
 
 #### Download Workshop Data
