@@ -28,6 +28,7 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 ---
+
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download a spreadsheet of street data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/)
 
