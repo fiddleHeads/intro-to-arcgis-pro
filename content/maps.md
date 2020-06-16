@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Title of page, will appear in left navigation menu
+title: Maps and Map Properties
 nav_order: 4
 ---
 
