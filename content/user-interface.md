@@ -10,7 +10,7 @@ ArcGIS Pro is the latest desktop GIS software from the software company Esri. Th
 Open the software and get familiar with the default user interface.
 1.  In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro. Or search for ArcGIS Pro in the search bar and open the program.
 2. In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (.**aprx**), and open the ArcGIS Pro main user interface.
-3. In the new dialog window, click ok to accept the defaults and finish creating your new project.
+3. In the new dialog window, click ok to accept the defaults and finish creating your new project. Click on map under **Blank Templates** if necessary to enter the main user interface (UI) for ArcGIS Pro.
 
 You should see something like this:
 ![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
@@ -23,8 +23,8 @@ The ArcGIS Pro user interface (UI) has a few main components:
 - **Menu Tabs**: These are located at the top of the main UI and can be  selected/activated as needed. We will use these later in the tutorial.
 
 #### Insert a New Map
-The first step we will want to take is to insert a new map in our UI.
- In the **Main Menu**, select **Insert > New Map**. Notice that a new map tab has been added to the Map Frame and Tools from the Main Menu are now enabled.
+If you are not already viewing a map as shown above, the first step will be to insert a new map in our UI.
+In the **Main Menu**, select **Insert > New Map**. Notice that a new map tab has been added to the Map Frame and Tools from the Main Menu are now enabled.
 
 #### Interact with Tabbed Menus
  Move your cursor to the **Contents Pane**, and notice the small down arrow on the right side. If clicked, this arrow give you options to **Float**, **Dock**, **Auto-Hide**, and **Close** the pane.    
@@ -32,9 +32,13 @@ The first step we will want to take is to insert a new map in our UI.
 Using the **Catalog Title Bar**, click and drag the Catalog Pane away from its docked position. Notice the "docking arrows" that appear as you move the window.
 
 #### Explore the Windows (Catalog)
-Using the Windows Explorer,  navigate to the **Intro-to-ArcGIS-Pro** directory where you extracted this workshop's files, and click into the **Data** folder.
+Using the Windows Explorer,  navigate to the [City of Vancouver street tree data](https://opendata.vancouver.ca/explore/dataset/street-trees/information/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id) you previously downloaded as a [GeoJSON](https://geojson.org/) file.
 
-Note that there are more files in this folder than there are Shapefiles as ArcGIS Pro shows. This is because a Shapefile is not actually _a file_, but instead _a collection of files_.
+**## MOVE THIS SECTION**
+
+ArcGIS Pro does not support the GeoJSON format, but it does provide a tool to convert from this file format to a shapefile or [feature class](http://wiki.gis.com/wiki/index.php/Feature_class).
+
+Note that there are more files in this folder than there are Shapefiles as ArcGIS Pro shows. This is because a [Shapefile](https://www.gislounge.com/what-is-a-shapefile/) is not actually _a file_, but instead _a collection of files_.
 
 1. Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Connect Folder** (or **Go to Insert**) **> Add Folder**
 2. Select the **Desktop** icon and click **OK**.
