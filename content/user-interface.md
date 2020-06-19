@@ -5,15 +5,15 @@ nav_order: 2
 ---
 
 ## USER INTERFACE
-ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended. Those of you at the University of British Columbia can find more information about the availability of ArcGIS Pro software :exclamation: here :exclamation:.
+ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended.
 
 Open the software and get familiar with the default user interface.
-1.  In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro.
+1.  In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro. Or search for ArcGIS Pro in the search bar and open the program.
 2. In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (.**aprx**), and open the ArcGIS Pro main user interface.
 3. In the new dialog window, click ok to accept the defaults and finish creating your new project.
 
 You should see something like this:
-:exclamation:[image showing the main UI components]:exclamation:
+![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
 
 ### Main UI Components
 The ArcGIS Pro user interface (UI) has a few main components:
