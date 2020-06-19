@@ -28,8 +28,19 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 
+### Setup
+This workshop requires the installation of Esri ArcGIS available from the [UBC Webstore](http://gis.ubc.ca/software/).
+Students are eligible to download the ArcGIS suite for a fixed amount. As of 2019, this was $30/year.
+For faculty and staff the annual license is more expensive. 
+
+If you do not want to purchase a license, you can sign up for a [free 21-day trial](https://www.esri.com/en-us/arcgis/trial?rmedium=esri_com_redirects01&rsource=https://links.esri.com/pro/trial).
+
+Make sure you have ArcGIS, including ArcGIS Pro, installed on your machine prior to the workshop.
+Give yourself several days to ensure it is properly installed.
+If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/connect/).
+
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download a spreadsheet of street data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/)
+To get started with this workshop, you'll need to first download a spreadsheet of street tree data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/)
 
 Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=csv&timezone=America/Los_Angeles&lang=en&use_labels_for_header=true&csv_separator=%3B){: .btn .btn-blue }
 1. Save this file (.**zip**) to your Desktop.
