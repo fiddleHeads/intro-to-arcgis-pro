@@ -50,6 +50,8 @@ Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/downl
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
 
+**REMOVE THIS SECTION??**
+
 Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which contains the files:
 - Intro.**gdb**: the geodatabase with data for your map
 - Intro.**aprx**: the project file with all the maps
