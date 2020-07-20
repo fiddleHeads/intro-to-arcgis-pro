@@ -48,7 +48,7 @@ There will be three applications that come with your download of ArcGIS Desktop.
 For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download a [shapefile](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm) of street tree data that we got from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
+To get started with this workshop, you'll need to first download a [shapefile](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm) of street tree data that we retrieved from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
 
 Included in your download is a project folder containing the following files:
 - Intro.**gdb**: the geodatabase with data for your map
