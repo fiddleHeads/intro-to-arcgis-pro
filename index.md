@@ -39,6 +39,8 @@ Make sure you have ArcGIS, including ArcGIS Pro, installed on your machine prior
 Give yourself several days to ensure it is properly installed.
 If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/connect/).
 
+Note: virtual access to the GIS lab at the Research Commons will be another option for accessing ArcGIS software in the future. Stay tuned.
+
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download a [GeoJSOn](https://geojson.org/) of street tree data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
 You can explore other file formats available for [street tree data](https://opendata.vancouver.ca/explore/dataset/street-trees/export/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id). 
