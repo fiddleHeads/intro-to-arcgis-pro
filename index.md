@@ -48,10 +48,7 @@ There will be three applications that come with your download of ArcGIS Desktop.
 For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download a [GeoJSOn](https://geojson.org/) of street tree data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
-You can explore other file formats available for [street tree data](https://opendata.vancouver.ca/explore/dataset/street-trees/export/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id). 
-You'll notice that the shapefile format is not available, which would have been the preferred format for working within ArcGIS Pro. 
-Instead, we'll download the GeoJSON format and convert it to a shapefile later.
+To get started with this workshop, you'll need to first download a [shapefile](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm) of street tree data that we got from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
 
 Included in your download is a project folder containing the following files:
 - Intro.**gdb**: the geodatabase with data for your map
@@ -64,4 +61,4 @@ Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/downl
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
 
-## Need to add Pro project to download still...
+## Need to add Pro project to download still and add shapefile to GitHub or somewhere else to download...
