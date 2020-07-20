@@ -53,15 +53,15 @@ You can explore other file formats available for [street tree data](https://open
 You'll notice that the shapefile format is not available, which would have been the preferred format for working within ArcGIS Pro. 
 Instead, we'll download the GeoJSON format and convert it to a shapefile later.
 
+Included in your download is a project folder containing the following files:
+- Intro.**gdb**: the geodatabase with data for your map
+- Intro.**aprx**: the project file with all the maps
+- Intro.**tbx**: a toolbox with analytical tools for your project
+- Index: folder with background organizing information
+
 Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=geojson&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
 1. Save this file (.**zip**) to your Desktop.
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
 
-**REMOVE THIS SECTION??**
-
-Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which contains the files:
-- Intro.**gdb**: the geodatabase with data for your map
-- Intro.**aprx**: the project file with all the maps
-- Intro.**tbx**: a toolbox with analytical tools for your project
-- Index: folder with background organizing information
+## Need to add Pro project to download still...
