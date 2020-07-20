@@ -35,11 +35,17 @@ For faculty and staff the annual license is more expensive.
 
 If you do not want to purchase a license, you can sign up for a [free 21-day trial](https://www.esri.com/en-us/arcgis/trial?rmedium=esri_com_redirects01&rsource=https://links.esri.com/pro/trial).
 
-Make sure you have ArcGIS, including ArcGIS Pro, installed on your machine prior to the workshop.
-Give yourself several days to ensure it is properly installed.
+Make sure you have ArcGIS Desktop installed on your machine prior to the workshop.
 If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/connect/).
-
 Note: virtual access to the GIS lab at the Research Commons will be another option for accessing ArcGIS software in the future. Stay tuned.
+
+There will be three applications that come with your download of ArcGIS Desktop.
+
+- **ArcCatalog**: file browser for managing and organizing your data
+- **ArcMap**: program to view, edit, and analyze data and create maps
+- **ArcGIS Pro**: newer program that has similar functionality to ArcMap but more 3D capability and better communication with ArcGIS Online
+
+For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download a [GeoJSOn](https://geojson.org/) of street tree data from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
