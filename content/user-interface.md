@@ -32,16 +32,14 @@ In the **Main Menu**, select **Insert > New Map**. Notice that a new map tab has
 Using the **Catalog Title Bar**, click and drag the Catalog Pane away from its docked position. Notice the "docking arrows" that appear as you move the window.
 
 #### Explore the Windows (Catalog)
-Using the Windows Explorer,  navigate to the [City of Vancouver street tree data](https://opendata.vancouver.ca/explore/dataset/street-trees/information/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id) you previously downloaded as a [GeoJSON](https://geojson.org/) file.
+Using the Windows Explorer,  navigate to the **data** folder where you previously downloaded the workshop materials.
 
-**## MOVE THIS SECTION**
+![shapefile.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/shapefile.jpg)
 
-ArcGIS Pro does not support the GeoJSON format, but it does provide a tool to convert from this file format to a shapefile or [feature class](http://wiki.gis.com/wiki/index.php/Feature_class).
+Note that there are more files in this folder than appear in the Table of Contents in the ArcGIS Pro interface. This is because a [Shapefile](https://www.gislounge.com/what-is-a-shapefile/) is not actually _a file_, but instead _a collection of files_.
 
-Note that there are more files in this folder than there are Shapefiles as ArcGIS Pro shows. This is because a [Shapefile](https://www.gislounge.com/what-is-a-shapefile/) is not actually _a file_, but instead _a collection of files_.
-
-1. Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Connect Folder** (or **Go to Insert**) **> Add Folder**
+1. Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Add Folder Connection** (or **Go to Insert**) **> Add Folder**
 2. Select the **Desktop** icon and click **OK**.
-3. Expand the resulting **Folder Connection** in the **Catalog Window** and expand the folder::exclamation: **XXXX.gdb**.:exclamation:
+3. Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **data** folder.
 
 Note that the features are simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it's better just to show the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
