@@ -8,40 +8,43 @@ nav_order: 5
 
 #### Layer Visibility
 The **Table of Contents** also controls Layer Visibility.  You can toggle the Layer Visibility using the checkbox next to each Layer in the Table of Contents.
-- Use the Visibility Checkbox next to the XXXX:exclamation: Layer to turn off the visibility of the layer and reveal the other layers again.
+- Use the Visibility Checkbox next to the **streetTrees** layer to turn off the visibility of the layer and reveal the other layers again.
 
 #### Feature Layer Tab
 Almost everything you might want to do with a layer can be done under the **Feature Layer** tabs.  There are often short-cuts to do these tasks also, but the **Feature Layer** tab can help you first find ways to work with layers.  
 
 _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
 
-1. Click onto the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
+1. Click on the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
 2. Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’.  
 
 ### Layer Attributes
-The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing a specific subset of trees. First, we need to see if the data necessary to do this exists in our dataset.
-1. **Right-Click** on the **Street Trees** layer and select **Open Attribute Table** to open the **Attribute Table** of the layer.
+The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the date they were planted and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
+1. **Right-Click** on the **Street Trees** layer and select **Attribute Table** to open the **Attribute Table** of the layer.
 2. **Click**, **drag** and **move** around the resulting table window. You can dock it again using the **Docking Square**.
-3. **Scroll** to the right until you can see the **POP**, **POP_RANK** and **POP_CLASS** :exclamation: attribute fields.
-4. **Right-click** on the **POP** field header and select Sort Descending.
-5. **Scroll** down through the attribute table to examine the relationship between these three variables.
+3. **Right-click** on the column name **date_plant** and select Sort Descending.
+6. **Scroll** down through the attribute table to examine the relationship among the **date_plant**, **genus_name**, and **neighbourh** variables.
 
 #### Select by Attributes
-What we would like to do is select all of the trees in this dataset that of a specific type. This can be accomplished using either of two variables, but we will use the **NAME** :exclamation: variable because most people know trees by this name.  
+It's difficult to understand the range of dates by scrolling down in such a large dataset, so we'll use the Select by Attributes tool to first explore the dates available and then to select a subset of trees planted before a certain date.
 1. On the **Map Tab**, go to the **Selection Tool**.
 2. Find and click on the **Select by Attributes** button.
 
 Pin the Geoprocessing Pane and set the following parameters:
 
--	Layer Name: Cities
+-	Input Rows: Street Trees
 - Selection type: New Selection
-- Click: Add Clause
+- Click: New Expression
 
-On the Expression:
+On the Expression, Where:
 
--	Field: Pop_Rank
-- is Less Than or Equal
-- Value: 2
+-	Field: date_plant
+- is equal to
+- click the dropdown in the third box of the clause to see the range of values
+
+This is a good example of how you can use the Select by Attributes tool to better view the data before you even make a selection.
+
+![dropdown.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/dropdown.jpg)
 
 1. Click **Add**.
 2. Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
