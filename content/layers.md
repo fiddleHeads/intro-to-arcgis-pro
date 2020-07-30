@@ -36,7 +36,7 @@ Pin the Geoprocessing Pane and set the following parameters:
 - Selection type: New Selection
 - Click: New Expression
 
-On the Expression, Where:
+For the Expression, Where:
 
 -	Field: date_plant
 - is equal to
@@ -46,25 +46,41 @@ This is a good example of how you can use the Select by Attributes tool to bette
 
 ![dropdown.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/dropdown.jpg)
 
-1. Click **Add**.
-2. Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
-3. Scroll through the attribute table and note the records that are selected.
-4. You can observe that the selection from the attribute table is also reflected in the map.
+In this dropdown, the dates are sorted by default in order of oldest to most recent date.
+
+<details>
+<summary>What is the oldest date recorded for a tree planting?</summary>
+
+1989-10-27
+</details>
+<br>
+
+Let's return to the **Select by Attributes** query we were building.
+For the Expression, Where:
+
+-	Field: date_plant
+- is on or before
+- '2000-01-01 00:00:00'
+
+1. Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
+2. Scroll through the attribute table and note the records that are selected.
+3. You can observe that the selection from the attribute table is also reflected in the map.
 
 Notice that the selection looks more manageable that the full dataset.  Now you will export this selection as a new Shapefile, and bring it back into the map as a new layer. As you do this, you will take advantage of a sort of “universal task" in ArcGIS Pro. Anytime you have selected a subset of one of your data layers ArcGIS Pro will only act on that subset while it is active. This means that geoprocessing, attribute calculations, data exports, etc., act as if the active selection is the whole of the dataset. This can come in quite handy.
 
 1. Right-click on the **Street Trees** layer in the **Contents** and select **Data > Export Features** …
 (_The option is also available under the **Feature Layer** set **> Data Tab > Export** block_).
-2. In the **Copy Features** window click on the **Browse** button to save the feature class into the XXXX:exclamation:.gdb to save as Trees_XXXX:exclamation:. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
+2. In the **Export Features** window click on the **Browse** button to save the feature class into the **workshop.gdb** to save as **olderTrees**. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
 3. Click **Run**.
-4. Right-click on the original Street_Trees layer and select **Remove**.
+![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
+4. Uncheck the original Street_Trees layer and close the attribute table.
 
 ### Symbology
-Now we have two classes of STREET_TREES :exclamation: to work with, and would like to distinguish them from one another visually.
+Now we have two tree layers to work with, and would like to distinguish them from one another visually.
 
-1. Right-Click on the new Trees_XXXX :exclamation: layer and on the **Menu Bar** go to **Appearance > Symbology**.
-2. Click on the **Symbology** option and select **Unique Values**.
-3. Change the **Value Field** to **XXXX** :exclamation:.
+1. Highlight the new **olderTrees** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
+2. Click on the dropdown arrow under the **Symbology** option and select **Unique Values**.
+3. Change the **Value Field** to **genus_name**.
 4. Click on the **More** option and uncheck the **Show all other values** item.
 5. Click **Symbols (Circles)** to open the **Format Point Symbol**.
 6. On the resulting **Symbol Selector Gallery** select **Circle 1**.
