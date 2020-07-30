@@ -82,12 +82,16 @@ Now we have two tree layers to work with, and would like to distinguish them fro
 2. Click on the dropdown arrow under the **Symbology** option and select **Unique Values**.
 3. Change the **Value Field** to **genus_name**.
 4. Click on the **More** option and uncheck the **Show all other values** item.
-5. Click **Symbols (Circles)** to open the **Format Point Symbol**.
-6. On the resulting **Symbol Selector Gallery** select **Circle 1**.
-7. Beside the **Gallery** options, click **Properties** and set its size to **4 points**. Click apply and use the **Go Back** arrow to return to the **Symbology Tab**.
-8. Using the same method, change the symbol for the “XXXX” :exclamation: item to **Circle 1** with a size of **10 points**.
-9. Go Back to the **Contents Panel** (Tabbed at the bottom).
-10.	Click **Save**.
+5. From the same dropdown menu, select **Format All Symbols**.
+6. Under **Gallery**, select **Circle 1** as the symbol.
+7. Click on **Properties** and change the point size to **4 points**.
+8. Click apply and use the **Go Back** arrow to return to the **Symbology Tab**.
+9. Select a **Color Scheme** from the dropdown arrow.
+10. Using the same method, change the symbol for the **Street Trees** layer to **Unique Values** using the **neighbourh** field.
+11. Use the **Circle 1** symbol with a size of **2 points** and choose a different **Color Scheme**.
+10.	Save the map by clicking on the save icon in the upper left of the map.
+
+START HERE
 
 ### Labels
 Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees with a XXXX value of XXXX :exclamation:.
