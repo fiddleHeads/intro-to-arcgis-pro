@@ -91,7 +91,8 @@ Now we have two tree layers to work with, and would like to distinguish them fro
 11. Use the **Circle 1** symbol with a size of **2 points** and choose a different **Color Scheme**.
 10.	Save the map by clicking on the save icon in the upper left of the map.
 
-START HERE
+In the example below, using the symbology settings specified above, the neighbourhoods are clearly delineated.
+![treesNeigh.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/treesNeighb.jpg)
 
 ### Labels
 Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees with a XXXX value of XXXX :exclamation:.
