@@ -22,11 +22,11 @@ _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature 
 The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the date they were planted and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
 1. **Right-Click** on the **Street Trees** layer and select **Attribute Table** to open the **Attribute Table** of the layer.
 2. **Click**, **drag** and **move** around the resulting table window. You can dock it again using the **Docking Square**.
-3. **Right-click** on the column name **date_plant** and select Sort Descending.
-6. **Scroll** down through the attribute table to examine the relationship among the **date_plant**, **genus_name**, and **neighbourh** variables.
+3. **Right-click** on the column name **diameter** and select Sort Descending.
+6. **Scroll** down through the attribute table to examine the relationship among the **diameter**, **genus_name**, and **neighbourh** variables.
 
 #### Select by Attributes
-It's difficult to understand the range of dates by scrolling down in such a large dataset, so we'll use the Select by Attributes tool to first explore the dates available and then to select a subset of trees planted before a certain date.
+It's difficult to understand the range of dates by scrolling down in such a large dataset, so we'll use the Select by Attributes tool to first explore the dates available and then to select a subset of trees with larger diameters.
 1. On the **Map Tab**, go to the **Selection Tool**.
 2. Find and click on the **Select by Attributes** button.
 
@@ -38,29 +38,29 @@ Pin the Geoprocessing Pane and set the following parameters:
 
 For the Expression, Where:
 
--	Field: date_plant
-- is equal to
+-	Field: diameter
+- is equal to (this is the default)
 - click the dropdown in the third box of the clause to see the range of values
 
 This is a good example of how you can use the Select by Attributes tool to better view the data before you even make a selection.
 
 ![dropdown.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/dropdown.jpg)
 
-In this dropdown, the dates are sorted by default in order of oldest to most recent date.
+In this dropdown, the dates are sorted by default in order of smallest to largest.
 
 <details>
-<summary>What is the oldest date recorded for a tree planting?</summary>
+<summary>What is the largest diameter value in the dataset?</summary>
 
-1989-10-27
+435
 </details>
 <br>
 
 Let's return to the **Select by Attributes** query we were building.
 For the Expression, Where:
 
--	Field: date_plant
-- is on or before
-- '2000-01-01 00:00:00'
+-	Field: diameter
+- is greater than or equal to
+- '40'
 
 1. Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
 2. Scroll through the attribute table and note the records that are selected.
@@ -70,7 +70,7 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 
 1. Right-click on the **Street Trees** layer in the **Contents** and select **Data > Export Features** …
 (_The option is also available under the **Feature Layer** set **> Data Tab > Export** block_).
-2. In the **Export Features** window click on the **Browse** button to save the feature class into the **workshop.gdb** to save as **olderTrees**. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
+2. In the **Export Features** window click on the **Browse** button to save the feature class into the **workshop.gdb** to save as **largeDiameter**. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
 3. Click **Run**.
 ![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
 4. Uncheck the original Street_Trees layer and close the attribute table.
@@ -78,7 +78,7 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 ### Symbology
 Now we have two tree layers to work with, and would like to distinguish them from one another visually.
 
-1. Highlight the new **olderTrees** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
+1. Highlight the new **largeDiameter** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
 2. Click on the dropdown arrow under the **Symbology** option and select **Unique Values**.
 3. Change the **Value Field** to **genus_name**.
 4. Click on the **More** option and uncheck the **Show all other values** item.
@@ -95,7 +95,7 @@ In the example below, using the symbology settings specified above, the neighbou
 ![treesNeigh.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/treesNeighb.jpg)
 
 ### Labels
-Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees with a XXXX value of XXXX :exclamation:.
+Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will select  label only the trees with a planted :.
 
 1.	_Right-Click on the XXXX :exclamation: layer and select **Label**, or go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default. Because there are so many visible features in this layer, this creates an unreadable labeling scheme. To remedy this, we will limit labeling to the largest cities in the Major Cities Layer._
 2. _Right-click on the XXXX Layer and select Labeling Properties or on the Label Class, select the SQL button._
