@@ -17,7 +17,23 @@ Almost everything you might want to do with a layer can be done under the **Feat
 _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
 
 1. Click on the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
-2. Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’.  
+2. Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’. 
+
+### Field Names
+There are certain [rules](https://support.esri.com/en/technical-article/000005588) associated with field names, but the alias for a field name has more flexibility. Before we start exploring the attributes of the data, we'll add aliases to the field names to make them easier to understand.
+1. **Right-click** on the **Street Trees** layer and select **Attribute Table** to open it.
+2. There are two ways to change field aliases. Under the **View** tab, select **Fields**. Alternatively, right-click on one of the column names in the attribute table and select **Fields**.
+3. From the newly opened table containing only Field Name information, click on **std_street** under the **Alias** column. You can see that by clicking in that field it becomes editable. 
+We can learn more about what the fields stand for by examining the [data schema](https://opendata.vancouver.ca/explore/dataset/street-trees/information/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id) provided on the City of Vancouver Open Data Portal. Scroll down to expand the data schema
+
+| Original  | Change to |
+| ------------- | ------------- |
+| facility  | Facility Name |
+| carts  | Cart |
+| phone  | Phone Number |
+| pets  | Pets Allowed |
+| meals  | Meals Offered |
+| geo_local_area  | Neighborhood |
 
 ### Layer Attributes
 The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the date they were planted and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
