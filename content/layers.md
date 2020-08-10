@@ -41,7 +41,7 @@ Scroll down and then expand the data schema to see what the different fields rep
 | street_sid  | Street side |
 | genus_name  | Genus name |
 | neighbourh  | Neighbourhood |
-| assigned  | Diameter |
+| assigned  | Assigned |
 | civic_numb  | Street address |
 | plant_area  | Plant area |
 | curb  | Curb |
@@ -50,6 +50,8 @@ Scroll down and then expand the data schema to see what the different fields rep
 | height_ran  | Height range |
 | on_street_  | Block |
 | cultivar_n  | Cultivar name |
+
+5. Save your edits by clicking on **Save** under the Fields tab at the top of the map.
 
 ### Layer Attributes
 The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the diameter of the treet and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
