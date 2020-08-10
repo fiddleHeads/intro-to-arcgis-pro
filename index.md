@@ -56,7 +56,7 @@ Included in your download is a project folder containing the following files:
 - Intro.**tbx**: a toolbox with analytical tools for your project
 - Index: folder with background organizing information
 
-Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=geojson&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
+Download [Data](https://opendata.vancouver.ca/explore/dataset/community-gardens-and-food-trees/download/?format=shp&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
 1. Save this file (.**zip**) to your Desktop.
 2. Right-click on the .zip file you just downloaded and select **Extract All**...
 3. Accept all defaults to extract the file.    
