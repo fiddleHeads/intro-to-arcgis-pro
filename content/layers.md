@@ -2,6 +2,7 @@
 layout: default
 title: Working with Layers
 nav_order: 5
+has_children: true
 ---
 
 ## WORKING WITH LAYERS
@@ -75,39 +76,8 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 ![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
 4. Uncheck the original Street_Trees layer and close the attribute table.
 
-### Symbology
-Now we have two tree layers to work with, and would like to distinguish them from one another visually.
+Next we'll symbolize these two layers.
 
-1. Highlight the new **largeDiameter** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
-2. Click on the dropdown arrow under the **Symbology** option and select **Graduated Colors**.
-
-[Graduated color](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/graduated-colors.htm) symbology is used to show a quantitative difference between mapped features by varying the color of symbols.
-
-3. Select **diameter** for the **Field**.
-4. Choose **Geometric Interval** as the **Method** and accept the default 5 **Classes**.
-
-**Geometric Interval** is one [data classification method](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/data-classification-methods.htm)
-
-We chose this classification method because it accomodates the the extremities of our dataset.
-
-5. Select the **Oranges(Continuous) Color scheme**.
-6. Using the same method, change the symbol for the original **Street Trees** layer to **Unique Values** using the **neighbourh** field.
-7. Use the **Circle 1** symbol with a size of **2 points** and choose a different **Color Scheme**.
-8. Save the map by clicking on the save icon in the upper left of the map.
-
-In the example below, using the symbology settings specified above, the neighbourhoods are clearly delineated.
-![treesNeigh.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/treesNeighb.jpg)
-
-### Labels
-Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Visual Basic scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees with a planted :. START HERE
-
-1.	_Right-Click on the XXXX :exclamation: layer and select **Label**, or go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default. Because there are so many visible features in this layer, this creates an unreadable labeling scheme. To remedy this, we will limit labeling to the largest cities in the Major Cities Layer._
-2. _Right-click on the XXXX Layer and select Labeling Properties or on the Label Class, select the SQL button._
-3. In the **Label Class** window, click on the **SQL Query…** button.
-4. Click on **Add Clause**.
-5. :exclamation:Click Apply a SELECT argument as where the Field POP_RANK “is Equal” Values: 1.
-6. Click **Add**.
-7. Go to the **Symbol Tab** and click on the **General** button (and “A” with the Paintbrush) **> Expand Appearance** and change the **Label Size** to 12 points, then click **Apply**.
 
 ### Adding Data
 ***can I add some data here that would show douglas firs per capita?***
