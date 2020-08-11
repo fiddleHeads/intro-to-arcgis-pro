@@ -30,12 +30,23 @@ It will have retained the symbology from the **largeDiameter** layer
 5. In the **Format Point Symbol** window, select **Properties** and then choose **No color** from the **Color** dropdown. 
 6. Then click on the **Layers** icon and select **No color** under **Outline color**. We will use this layer only for labeling and not for symbolizing.
 7. Click **Apply**.
-8. **Right-click** on the **Tall trees** layer and select **Label**, or go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default.
+8. **Right-click** on the **Tall trees** layer and select **Label**. Pin the labeling properties window. To access the labeling properties, you can also go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default.
 9. Turn on the **largeDiameter** layer again. 
 Even though we are only trying to label 201 features, you can see that the labels are illegible.
-2. _Right-click on the XXXX Layer and select Labeling Properties or on the Label Class, select the SQL button._
-3. In the **Label Class** window, click on the **SQL Query…** button.
-4. Click on **Add Clause**.
+10. In the labeling properties window, we'll choose to label by **Common name** by double-clicking on it in the **Fields** window.
+This will populate the **Expression** window with an expression that looks like this: *$feature.common_nam*
+10. In the **Label Symbol** window, expand the **Appearance** option. Use the following parameters and click Apply:
+![appearance.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/appearance.jpg)
+The symbols are still clustered and hard to read, so we need to make additional customized changes. You may also be aware by now that customizing the appearance of a map is one of the most time-consuming aspects of creating a map.
+11. In order to make it the labels more legible, we'll add a halo. Expand the **Halo** option and select the **White fill 50% transparency** from the **Halo symbol** dropdown.
+Use the following parameters for the rest of the settings:
+Color: white
+Outline color: none
+Outline width: 0 pt
+Halo size: 1 pt
+
+It is clear that the Topographic default basemap is not compatible with the labels we're trying to customize. Let's change the basemap before we make any additional changes.
+12. From the **Map** tab, click on the **Basemap** dropdown arrow and select 
 5. :exclamation:Click Apply a SELECT argument as where the Field POP_RANK “is Equal” Values: 1.
 6. Click **Add**.
 7. Go to the **Symbol Tab** and click on the **General** button (and “A” with the Paintbrush) **> Expand Appearance** and change the **Label Size** to 12 points, then click **Apply**.
