@@ -36,9 +36,9 @@ Even though we are only trying to label 201 features, you can see that the label
 10. In the labeling properties window, we'll choose to label by **Common name** by double-clicking on it in the **Fields** window.
 This will populate the **Expression** window with an expression that looks like this: *$feature.common_nam*
 10. In the **Label Symbol** window, expand the **Appearance** option. Use the following parameters and click Apply:
-![appearance.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/appearance.jpg)
+![appearance1.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/appearance1.jpg)
 The symbols are still clustered and hard to read, so we need to make additional customized changes. You may also be aware by now that customizing the appearance of a map is one of the most time-consuming aspects of creating a map.
-11. In order to make it the labels more legible, we'll add a halo. Expand the **Halo** option and select the **White fill 50% transparency** from the **Halo symbol** dropdown.
+11. In order to make the labels more legible, we'll add a halo. Expand the **Halo** option and select the **White fill 50% transparency** from the **Halo symbol** dropdown.
 Use the following parameters for the rest of the settings:
 Color: white
 Outline color: none
@@ -46,7 +46,22 @@ Outline width: 0 pt
 Halo size: 1 pt
 
 It is clear that the Topographic default basemap is not compatible with the labels we're trying to customize. Let's change the basemap before we make any additional changes.
-12. From the **Map** tab, click on the **Basemap** dropdown arrow and select 
-5. :exclamation:Click Apply a SELECT argument as where the Field POP_RANK “is Equal” Values: 1.
-6. Click **Add**.
+12. From the **Map** tab, click on the **Basemap** dropdown arrow and select **Light Gray Canvas**.
+13. Returning to the **Labeling Properties** window, click on **Position**.
+14. Expand **Buffer** and check **Hard constraint**.
+15. Click on the **Fitting strategy** icon.
+16. Leave the defaults for **Stack** but expand **Reduce size** and check **Reduce font size**.
+Use the following parameters:
+Lower limit: 3.0 pts
+Step interval: 0.5 pts
+Under Font width compression:
+Lower limit: 70%
+Step interval: 3%
+17. Expand **Abbreviate** and check **Use abbreviation strategies** and also **Truncation** with a **Minimum word length** of 2.
+18. Expand **Strategy order** and use this hierarchy:
+Font compression
+Font reduction
+Stacking
+Abbreviation
+
 7. Go to the **Symbol Tab** and click on the **General** button (and “A” with the Paintbrush) **> Expand Appearance** and change the **Label Size** to 12 points, then click **Apply**.
