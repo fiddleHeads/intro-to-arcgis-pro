@@ -37,7 +37,14 @@ If you do not want to purchase a license, you can sign up for a [free 21-day tri
 
 Make sure you have ArcGIS Desktop installed on your machine prior to the workshop.
 If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/connect/).
-Note: virtual access to the GIS lab at the Research Commons will be another option for accessing ArcGIS software in the future. Stay tuned.
+
+ArcGIS is also available on UBC Library's lab computers via VM's on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca).
+
+Labs with ArcGIS:
+
+Library Lab - Koerner Library Computer Lab (RM 217)
+Library Lab - Data/GIS Lab (RM 218 A)
+Library Lab - Digital Scholarship Lab (RM 497)
 
 There will be three applications that come with your download of ArcGIS Desktop.
 
