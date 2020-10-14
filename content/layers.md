@@ -110,6 +110,6 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 
 ![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
 
-4. Uncheck the original Street_Trees layer and close the attribute table.
+Uncheck the original Street_Trees layer and close the attribute table.
 
 Next we'll symbolize these two layers.
