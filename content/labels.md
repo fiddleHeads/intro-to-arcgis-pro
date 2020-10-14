@@ -6,7 +6,9 @@ parent: Working with Layers
 ---
 
 ### Labels
-Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Arcade or SQL scripting to assemble labels from several attributes and text elements. In this example, we will label only the trees from the **largeDiameter** layer which also have a tree height greater than or equal to 8, which is a range identifier representing trees 80-90 ft tall. In order to label only certain features, we'll create another layer based on a selection.
+Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Arcade or SQL scripting to assemble labels from several attributes and text elements. 
+
+In this example, we will label only the trees from the **largeDiameter** layer which also have a tree height greater than or equal to 8, which is a range identifier representing trees 80-90 ft tall. In order to label only certain features, we'll create another layer based on a selection.
 
 1. Under the **Map** tab at the top of the screen, click on **Select by Attributes** to create an expression.
 Set the following parameters:
@@ -25,7 +27,7 @@ For the Expression, Where:
 This creates a temporary layer representing the selection.
 3. Rename this temporary layer **Tall trees**.
 It will have retained the symbology from the **largeDiameter** layer
-4. clear the selection from **largeDiameter** and turn off all the layers except **Tall trees** and from the top of the map, click on **Appearance>Symbology>Single Symbol**.
+4. Clear the selection from **largeDiameter** and turn off all the layers except **Tall trees** and from the top of the map, click on **Appearance>Symbology>Single Symbol**.
 5. In the **Symbology** window to the right of the map, click on the circle next to **Symbol**.
 6. In the **Format Point Symbol** window, select **Properties** and then choose **No color** from the **Color** dropdown. 
 7. Then click on the **Layers** icon and select **No color** under **Outline color**. We will use this layer only for labeling and not for symbolizing.
@@ -39,8 +41,9 @@ This will populate the **Expression** window with an expression that looks like 
 
 ![appearance1.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/appearance1.jpg)
 
-The symbols are still clustered and hard to read, so we need to make additional customized changes. You may also be aware by now that customizing the appearance of a map is one of the most time-consuming aspects of creating a map.
-13. In order to make the labels more legible, we'll add a halo. Expand the **Halo** option and select the **White fill 50% transparency** from the **Halo symbol** dropdown.
+The symbols are still clustered and hard to read, so we need to make additional customized changes. You may also be aware by now that customizing the appearance of a map is one of the most time-consuming aspects of creating a map. In order to make the labels more legible, we'll add a halo.
+
+13. Expand the **Halo** option and select the **White fill 50% transparency** from the **Halo symbol** dropdown.
 Use the following parameters for the rest of the settings:
 
 - Color: white
@@ -50,7 +53,7 @@ Use the following parameters for the rest of the settings:
 
 It is clear that the Topographic default basemap is not compatible with the labels we're trying to customize. Let's change the basemap before we make any additional changes.
 
-14. From the **Map** tab, click on the **Basemap** dropdown arrow and select **Light Gray Canvas**.
+14. From the **Map** tab, click on the **Basemap** dropdown arrow and select **Oceans**.
 15. Returning to the **Labeling Properties** window, click on **Position**.
 16. Expand **Remove duplicate labels** and select **Remove within fixed distance** from the dropdown. Leave the default search radius.
 
