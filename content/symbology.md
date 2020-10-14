@@ -20,8 +20,8 @@ Now we have two tree layers to work with, and would like to distinguish them fro
 
 We chose this classification method because it accomodates the the extremities of our dataset.
 
-5. Select the **Oranges(Continuous) Color scheme**.
-6. Using the same method, change the symbol for the original **Street Trees** layer to **Unique Values** using the **neighbourh** field.
+5. Select the **Oranges (Continuous) Color scheme**.
+6. Using the same method, change the symbol for the original **Street Trees** layer to **Unique Values** using the **Neighbourhood** field.
 7. Use the **Circle 1** symbol with a size of **2 points** and choose a different **Color Scheme**.
 8. Save the map by clicking on the save icon in the upper left of the map.
 
