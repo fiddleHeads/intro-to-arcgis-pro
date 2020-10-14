@@ -107,7 +107,9 @@ Notice that the selection looks more manageable that the full dataset.  Now you 
 (_The option is also available under the **Feature Layer** set **> Data Tab > Export** block_).
 2. In the **Export Features** window click on the **Browse** button to save the feature class into the **workshop.gdb** to save as **largeDiameter**. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
 3. Click **Run**.
+
 ![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
+
 4. Uncheck the original Street_Trees layer and close the attribute table.
 
 Next we'll symbolize these two layers.
