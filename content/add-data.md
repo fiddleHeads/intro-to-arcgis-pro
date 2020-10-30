@@ -8,10 +8,13 @@ parent: Working with Layers
 ## NEEDS REWORKING
 
 ### Adding Data
+Let's see if we can find population data for Vancouver that will help us analyze how many trees per capita there are in the city.
+We'll search for Census population data using the [Living Atlas](https://livingatlas.arcgis.com/en/home/).
+DON'T THINK LIVING ATLAS DATA BY NEIGHBOURHOOD. CITY DATA IS BUT NOT IN GIS FORMAT. CONVERT TO GIS FORMAT NEXT WEEK
 ***can I add some data here that would show douglas firs per capita?***
 
-Now lets add some additional data to our **Map Document**.
-1. In the **Catalog Window**, navigate to the **Intro:exclamation:.gdb**.
+Now lets add some additional data to our **Map Document**. 
+1.  From the **Add Data** dropdown, click on **Data**. 
 2.	Find  the **XXXX Table** and click and drag it to the Map Document.
 3.	Now look on the **Contents Pane**, you should see the table under the **Standalone Tables** tab.
 
