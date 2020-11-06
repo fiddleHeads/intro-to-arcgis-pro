@@ -9,10 +9,12 @@ parent: Working with Layers
 
 ### Adding Data
 Let's see if we can find population data for Vancouver that will help us analyze how many trees per capita there are in each neighbourhood in the city.
-The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/home/) provides 2016 Census Area Profile data from Statistics Canada.
-Unfortunately, the data is not in GIS format but provided as CSV and Excel spreadsheets. 
-I have culled relevant data on population per neighbourhood, formatted in a CSV spreadsheet correctly, 
-DON'T THINK LIVING ATLAS DATA BY NEIGHBOURHOOD. CITY DATA IS BUT NOT IN GIS FORMAT. CONVERT TO GIS FORMAT NEXT WEEK
+The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/home/) provides [2016 Census Area Profile](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/) data from [Statistics Canada](https://www.statcan.gc.ca/eng/start).
+
+Unfortunately, the data is not in GIS format but provided as a spreadsheet with much more information than we need formatted in a way that is not friendly to a GIS. 
+
+So the spreadsheet has been culled and reformatted to only represent total population per neighbourhood.
+
 ***can I add some data here that would show douglas firs per capita?***
 
 Now lets add some additional data to our **Map Document**. 
