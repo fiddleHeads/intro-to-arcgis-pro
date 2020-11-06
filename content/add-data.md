@@ -8,8 +8,10 @@ parent: Working with Layers
 ## NEEDS REWORKING
 
 ### Adding Data
-Let's see if we can find population data for Vancouver that will help us analyze how many trees per capita there are in the city.
-We'll search for Census population data using the [Living Atlas](https://livingatlas.arcgis.com/en/home/).
+Let's see if we can find population data for Vancouver that will help us analyze how many trees per capita there are in each neighbourhood in the city.
+The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/home/) provides 2016 Census Area Profile data from Statistics Canada.
+Unfortunately, the data is not in GIS format but provided as CSV and Excel spreadsheets. 
+I have culled relevant data on population per neighbourhood, formatted in a CSV spreadsheet correctly, 
 DON'T THINK LIVING ATLAS DATA BY NEIGHBOURHOOD. CITY DATA IS BUT NOT IN GIS FORMAT. CONVERT TO GIS FORMAT NEXT WEEK
 ***can I add some data here that would show douglas firs per capita?***
 
