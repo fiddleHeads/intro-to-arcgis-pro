@@ -13,7 +13,9 @@ The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/hom
 
 Unfortunately, the data is not in GIS format but provided as a spreadsheet with much more information than we need formatted in a way that is not friendly to a GIS. 
 
-So the spreadsheet has been culled and reformatted to only represent total population per neighbourhood.
+So the spreadsheet has been culled and reformatted to only represent total population per neighbourhood and added to the workshop.gdb as a table.
+
+NEXT WEEK INSTRUCT HOW TO ADD TO MAP AND JOIN TO STREET TREES LAYER.
 
 ***can I add some data here that would show douglas firs per capita?***
 
