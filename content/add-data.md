@@ -32,16 +32,15 @@ Now we will turn our attention to the **streetTrees** layer. Ultimately, we woul
 
 1. Right-click on the **NeighborhoodPop** table and select **Open**.
 2. Scroll through the attributes and note the **Neighbourhood** and **Population** attribute fields. Close the table.
-3. Open the attribute table for the **streetTrees** layer and note that it also has a **Neighbourhood** attribute field, but not a **Population** attribute field.  
+3. Open the attribute table for the **streetTrees** layer and note that it also has a **Neighbourhood** attribute field, but not a **Population** attribute field. Close the table.
 
-Since the **NAME** attribute exists in both of these attribute tables, and its values are identical across the two datasets, we can use this attribute as the “**Key Field**” for our table join.
+Since the **Neighbourhood** attribute exists in both of these attribute tables, and its values are identical across the two datasets, we can use this attribute as the “**Key Field**” for our table join.
 
-4.	Close the attribute table for the **VanNeighborhoods** Layer.
-5.	Right-click on the **NeighborhoodPop** layer and select **Joins and Relates > Add Join…**
-6.	Select **NAME** as the **Join Field** for the **XXXX:exclamation:** layer.
-7.	If it is not selected automatically, select **NeighborhoodPop** as the table to join to the **VanNeighborhoods** layer, and **NAME** as the join field for this table.
-8.	Click **Run** to create the join.
-9.	Open the attribute table for the **VanNeighborhoods** layer and note the **POP** attribute (along with all other attributes from the **NeighborhoodPop** table).
+4.	Right-click on the attribute table for the **streetTrees** layer in the Table of Contents and select **Joins and Relates > Add Join…**
+5.	Select **Neighbourhood** as the **Input Join Field** (there may be a warning indicated by an exclamation point in a triangle about indexing. We can ignore that for this join).
+6.	If it is not selected automatically, select **NeighborhoodPop** as the **Join Table** and **Neighbourhood** as the **Join Table Field** for this table.
+7.	Click **OK** to create the join.
+8.	Open the attribute table for the **streetTrees** layer and note the new **Population** and **Neighbourhood** fields.
 
 ### Definition Queries
 ***need to edit this entire section***
