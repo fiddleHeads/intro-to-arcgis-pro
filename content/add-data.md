@@ -13,25 +13,26 @@ The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/hom
 
 Unfortunately, the data is not in GIS format but provided as a spreadsheet with much more information than we need formatted in a way that is not friendly to a GIS. 
 
-So the spreadsheet has been culled and reformatted to only represent total population per neighbourhood and added to the workshop.gdb as a table.
+So the spreadsheet has been culled and reformatted to only represent total population per neighbourhood and added to the **workshop.gdb** as a table.
 
 NEXT WEEK INSTRUCT HOW TO ADD TO MAP AND JOIN TO STREET TREES LAYER.
 
 ***can I add some data here that would show douglas firs per capita?***
 
-Now lets add some additional data to our **Map Document**. 
+Let's add this spreadsheet to our **Map Document**. 
 1.  From the **Add Data** dropdown, click on **Data**. 
-2.	Find  the **XXXX Table** and click and drag it to the Map Document.
+2.	Navigate to the **workshop.gdb** and add the **NeighborhoodPop** table by clicking through the dialog window.
 3.	Now look on the **Contents Pane**, you should see the table under the **Standalone Tables** tab.
+
+This table was previously added to the **workshop.gdb** in order to be able to join it with other layers in the geodatabase. If the table is outside the geodatabase, the join we want to do with the **Street Trees** layer would not work.
 
 ### Joining Tables
 
-***Data will need to have population per neighbourhood***
-Now we will turn our attention to the XXXX:exclamation: Layer. Ultimately, we would like to visualize the layer based upon population density. However, the attribute table for this layer does not contain data on population.  Fortunately, we added the World Population table in our Map Document with the necessary population attribute.
+Now we will turn our attention to the **streetTrees** layer. Ultimately, we would like to visualize the layer based upon population density, which we can only do by joining the **NeighborhoodPop** table which contains population per neighbourhood.
 
-1. Right-click on the **NeighborhoodPop Table** and select **Open**.
-2. Scroll through the attributes and note the **NAME** and **POP** attribute fields. Close the table.
-3. Open the attribute table for the **VanNeighborhoods** layer and note that it also has a **NAME** attribute field, but not a **POP** attribute field.  
+1. Right-click on the **NeighborhoodPop** table and select **Open**.
+2. Scroll through the attributes and note the **Neighbourhood** and **Population** attribute fields. Close the table.
+3. Open the attribute table for the **streetTrees** layer and note that it also has a **Neighbourhood** attribute field, but not a **Population** attribute field.  
 
 Since the **NAME** attribute exists in both of these attribute tables, and its values are identical across the two datasets, we can use this attribute as the “**Key Field**” for our table join.
 
