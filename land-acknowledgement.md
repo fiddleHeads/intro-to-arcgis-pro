@@ -4,6 +4,8 @@ title: Land Acknowledgement
 nav_order: 2
 ---
 
+## LAND ACKNOWLEDGEMENT
+
 UBC is located on the traditional, ancestral, and unceded territory of the Musqueam people.
 
 ![ubc.jpg](https://raw.githubusercontent.com/fiddleHeads/missing-mapathon/main/UBC.jpg)
