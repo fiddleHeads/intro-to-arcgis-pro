@@ -36,8 +36,8 @@ What you have just done is reassigned the coordinate system of the **Map Frame**
 Before we begin to explore the properties of _individual layers_ in the **Map Document**, we will first spend some time getting familiar with the _navigation tools_ in the **Map Document**.  Most of these tools can be found on the **Map Tab: Navigation** toolbar, though some of the more useful ones involve right-clicking context menus of the layers, or using the mouse and mouse wheel (press to Pan, role to zoom).
 
 #### Zoom to layer
-Sometimes it is very helpful to see the entirety of a layer's extent. To fit the :exclamation:Street Trees layer into the **Map Frame**:
-- Right-click on the :exclamation:Street Trees layer, in the Contents Panel, and select Zoom to Layer.
+Sometimes it is very helpful to see the entirety of a layer's extent. To fit the :exclamation:Language Spoken at Home layer into the **Map Frame**:
+- Right-click on the :exclamation:Language Spoken at Home layer, in the Contents Panel, and select Zoom to Layer.
 
 #### Tools Toolbar
 In addition to the **Zoom to Layer** option, the **Tools Toolbar** provides the bulk of the tools for navigation in the **Data Frame**. Most of them are fairly explanatory. Take a moment to explore each of these tools, and how it works.
