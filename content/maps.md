@@ -20,10 +20,14 @@ In addition, disparate Projection/Coordinate Systems can cause major issues and 
 #### Change a Coordinate Reference System
 Because of the issues with working with data in different projections in the same data frame, **it is good practice to select a Projection/Coordinate system that is suitable for your particular analysis and scale, and project all of your data to the same**. The UTM Zone 10 projection is an appropriate one to use for the City of Vancouver. To change the coordinate system of the underlying map:
 
-1.	**Right-click** on the **Map Item** at the top of the **Contents** and select **Properties**…
-2.	**Click** on the **Coordinate System Tab** and expand the **Layers Folder** in the “**Select a Coordinate System:**” panel.
-3.	**Expand** the **Layers Folder** and **select** the **NAD 1983 (2011) UTM Zone 10N Projection** file. **Click OK**.
-4.	**Click Save**
+*1*{: .circle .circle-blue}	**Right-click** on the **Map Item** at the top of the **Contents** and select **Properties**…
+
+*2*{: .circle .circle-blue}	**Click** on the **Coordinate System Tab** and expand the **Layers Folder** in the “**Select a Coordinate System:**” panel.
+
+*3*{: .circle .circle-blue}	**Expand** the **Layers Folder** and **select** the **NAD 1983 (2011) UTM Zone 10N Projection** file. **Click OK**.
+
+*4*{: .circle .circle-blue}	**Click Save**
+
 (Auto-save option is available under Project > Options > Editing > Session)
 
 What you have just done is reassigned the coordinate system of the **Map Frame** to that of the **Street Trees Layer**. The result of this change should be a substantial change to the view on the Map.
@@ -45,12 +49,13 @@ In addition to the **Zoom to Layer** option, the **Tools Toolbar** provides the 
 #### Bookmarks
 Another useful navigation tool is the ability to create spatial **Bookmarks** that allow you to return to specific scales/extents that you define.
 
-1. Using the **Zoom Tools** on the **Tools Toolbar**, zoom your map view to the area around **Downtown Vancouver**.
-2. **Select Bookmarks > Create Bookmark**.
-3. Name your Bookmark “***Downtown Vancouver***” and **click OK**.
-4. **Click** on the **Full Extent** button in the **Tools Toolbar**.
-5. Return to **Bookmarks** and **select** your new **Downtown Vancouver** bookmark.
+*1*{: .circle .circle-blue} Using the **Zoom Tools** on the **Tools Toolbar**, zoom your map view to the area around **Downtown Vancouver**.
+*2*{: .circle .circle-blue} **Select Bookmarks > Create Bookmark**.
+*3*{: .circle .circle-blue} Name your Bookmark “***Downtown Vancouver***” and **click OK**.
+*4*{: .circle .circle-blue} **Click** on the **Full Extent** button in the **Tools Toolbar**.
+*5*{: .circle .circle-blue} Return to **Bookmarks** and **select** your new **Downtown Vancouver** bookmark.
 
 #### Display Order
 The **Layer Order** in the **Table of Contents** determines the order of display in your **Data Frame**, when it is in the "List by Drawing Order" mode. Note that you can also display your **Contents** as “List by Source”.
-1. If you haven’t already, change your **Table of Contents** view from “List by Source” to “List by Drawing Order” using the **View** buttons at the top of the **Table of Contents**.
+
+*1*{: .circle .circle-blue} If you haven’t already, change your **Table of Contents** view from “List by Source” to “List by Drawing Order” using the **View** buttons at the top of the **Table of Contents**.
