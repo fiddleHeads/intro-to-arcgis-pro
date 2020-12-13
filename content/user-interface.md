@@ -8,6 +8,7 @@ nav_order: 2
 ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended.
 
 Open the software and get familiar with the default user interface.
+
 *1*{: .circle .circle-blue} In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro. Or search for ArcGIS Pro in the search bar and open the program.
 
 *2*{: .circle .circle-blue} In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (.**aprx**), and open the ArcGIS Pro main user interface.
