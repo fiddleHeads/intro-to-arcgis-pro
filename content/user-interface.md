@@ -8,9 +8,11 @@ nav_order: 2
 ArcGIS Pro is the latest desktop GIS software from the software company Esri. This software must be purchased, downloaded, installed, and configured on your computer for it to work as intended.
 
 Open the software and get familiar with the default user interface.
-1.  In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro. Or search for ArcGIS Pro in the search bar and open the program.
-2. In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (.**aprx**), and open the ArcGIS Pro main user interface.
-3. In the new dialog window, click ok to accept the defaults and finish creating your new project. Click on map under **Blank Templates** if necessary to enter the main user interface (UI) for ArcGIS Pro.
+*1*{: .circle .circle-blue} In Windows, go to the Programs menu and find the ArcGIS Program Group, then select ArcGIS Pro. Or search for ArcGIS Pro in the search bar and open the program.
+
+*2*{: .circle .circle-blue} In the dialog window, click on **Create a New Project > Blank**. This will create a new project file (.**aprx**), and open the ArcGIS Pro main user interface.
+
+*3*{: .circle .circle-blue} In the new dialog window, click ok to accept the defaults and finish creating your new project. Click on map under **Blank Templates** if necessary to enter the main user interface (UI) for ArcGIS Pro.
 
 You should see something like this:
 ![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
@@ -32,14 +34,19 @@ In the **Main Menu**, select **Insert > New Map**. Notice that a new map tab has
 Using the **Catalog Title Bar**, click and drag the Catalog Pane away from its docked position. Notice the "docking arrows" that appear as you move the window.
 
 #### Explore the Windows (Catalog)
+
+**THIS SECTION NEEDS TO BE REVISED TO REFLECT ADDING LANGUAGE DATA, PROBABLY FROM A GDB, NOT AS SHAPEFILES**
+
 Using the Windows Explorer,  navigate to the **data** folder where you previously downloaded the workshop materials.
 
 ![shapefile.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/shapefile.jpg)
 
 Note that there are more files in this folder than appear in the Table of Contents in the ArcGIS Pro interface. This is because a [Shapefile](https://www.gislounge.com/what-is-a-shapefile/) is not actually _a file_, but instead _a collection of files_.
 
-1. Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Add Folder Connection** (or **Go to Insert**) **> Add Folder**
-2. Select the **Desktop** icon and click **OK**.
-3. Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **data** folder.
+*1*{: .circle .circle-blue} Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Add Folder Connection** (or **Go to Insert**) **> Add Folder**
+
+*2*{: .circle .circle-blue} Select the **Desktop** icon and click **OK**.
+
+*3*{: .circle .circle-blue} Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **data** folder.
 
 Note that the features are simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it's better just to show the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
