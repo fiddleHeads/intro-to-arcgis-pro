@@ -50,9 +50,13 @@ In addition to the **Zoom to Layer** option, the **Tools Toolbar** provides the 
 Another useful navigation tool is the ability to create spatial **Bookmarks** that allow you to return to specific scales/extents that you define.
 
 *1*{: .circle .circle-blue} Using the **Zoom Tools** on the **Tools Toolbar**, zoom your map view to the area around **Downtown Vancouver**.
+
 *2*{: .circle .circle-blue} **Select Bookmarks > Create Bookmark**.
+
 *3*{: .circle .circle-blue} Name your Bookmark “***Downtown Vancouver***” and **click OK**.
+
 *4*{: .circle .circle-blue} **Click** on the **Full Extent** button in the **Tools Toolbar**.
+
 *5*{: .circle .circle-blue} Return to **Bookmarks** and **select** your new **Downtown Vancouver** bookmark.
 
 #### Display Order
