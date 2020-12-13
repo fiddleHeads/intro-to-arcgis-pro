@@ -68,7 +68,9 @@ THIS NEEDS TO BE CHANGED TO DOWNLOAD WORKSHOP GDB CONTAINING LANGUAGE SPOKEN AT 
 
 Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=shp&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
 *1*{: .circle .circle-blue} Save this file (.**zip**) to your Desktop.
+
 *2*{: .circle .circle-blue} Right-click on the .zip file you just downloaded and select **Extract All**...
+
 *3*{: .circle .circle-blue} Accept all defaults to extract the file.    
 
 ## Need to add Pro project to download still and add shapefile to GitHub or somewhere else to download...
