@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Map Production in GIS with ArcGIS Pro
-nav_order: 3
+nav_order: 1
 ---
 
 # Map Production in GIS with ArcGIS Pro
