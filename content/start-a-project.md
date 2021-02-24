@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Starting a Project
-nav_order: 3
+nav_order: 5
 ---
 
 ## STARTING A PROJECT
