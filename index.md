@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Map Production in GIS with ArcGIS Pro
-nav_order: 3
+nav_order: 1
 ---
 
 # Map Production in GIS with ArcGIS Pro
@@ -9,6 +9,7 @@ nav_order: 3
 <p align="center">
   <a href="master/index.">Introduction</a>&nbsp;|
   <a href="master/index.">Land Acknowledgement</a>&nbsp;|
+  <a href="master/index.">Participating online</a>&nbsp;|
   <a href="content/user-interface">User Interface</a>&nbsp;|
   <a href="content/start-a-project">Starting a Project</a>&nbsp;|
   <a href="content/maps">Maps and Map Properties</a>&nbsp;|
@@ -29,7 +30,7 @@ This is an introductory workshop focusing on the fundamental concepts and skills
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 
-### Setup
+#### Setup:
 This workshop requires the installation of Esri ArcGIS available from the [UBC Webstore](http://gis.ubc.ca/software/).
 Students are eligible to download the ArcGIS suite for a fixed amount. As of 2019, this was $30/year.
 For faculty and staff the annual license is more expensive. 
@@ -41,7 +42,7 @@ If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/con
 
 ArcGIS is also available on UBC Library's lab computers via VM's on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca).
 
-Labs with ArcGIS:
+#### Labs with ArcGIS:
 
 Library Lab - Koerner Library Computer Lab (RM 217)
 Library Lab - Data/GIS Lab (RM 218 A)
