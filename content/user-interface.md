@@ -18,7 +18,7 @@ Open the software and get familiar with the default user interface.
 You should see something like this:
 ![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
 
-### Main UI Components
+#### Main UI Components
 The ArcGIS Pro user interface (UI) has a few main components:
 - The **Map Frame**: This is where your data will be visualized.
 - The **Contents Pane**: This will likely be your most used "tabbed" window because it's where you'll interact with your data. As you add data to your project, they'l appear here as **layers**.
