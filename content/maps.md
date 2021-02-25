@@ -6,11 +6,11 @@ nav_order: 6
 
 
 ## MAPS AND MAP PROPERTIES
-In the **Contents Panel** you should see an item named **Layers**, followed by 3 layers corresponding to the Feature Classes in your Geodatabase. The “Map” item at the top of the Contents Panel represents the Data Frame which contains all of your layers. Click **List By Source** near the top left of the **Contents Panel**.
+In the **Contents Panel** you should see an item named **Drawing Order**, below which will be a **Map** item, followed by the  2 layers corresponding to the feature classes in your geodatabase. The **Map** item at the top of the Contents Panel represents the **data frame** which contains all of your layers. Click **List By Source** near the top left of the **Contents Panel**.
 
-Note that the layers are organized underneath the path at which they are located. If this Map Document contained links to datasets in other locations, they would be listed under that path or network address.
+Note that the layers are organized underneath the path where they are located. If this map document contained links to datasets in other locations, they would be listed under that path or network address.
 
-### Projections and Coordinate Reference Systems
+#### Projections and Coordinate Reference Systems
 Coordinate systems tell your map how to project the geography of our spherical world, onto a flat screen. The datasets used in this map are actually all in the same projection (UTM Zone 10) though it is not the one currently being used to display the data. In GIS, datasets have their own explicitly defined Projection/Coordinate Systems, while the Map Frame can also have a different Projection/Coordinate System.  
 
 This allows you to add geographic data with different native Coordinate Systems to your map. ArcGIS Pro will treat the Data Frame’s Coordinate System as the Map’s Lingua Franca, projecting (on the fly) all of the new datasets to the Data Frame Projection. While convenient, it comes at a cost: Map Documents that make use of this type of on-the-fly projection render the data in the Data Frame at a much slower rate.  
@@ -32,7 +32,7 @@ Because of the issues with working with data in different projections in the sam
 
 What you have just done is reassigned the coordinate system of the **Map Frame** to that of the **Street Trees Layer**. The result of this change should be a substantial change to the view on the Map.
 
-### Explore Navigation and Tools in Data Frames
+#### Explore Navigation and Tools in Data Frames
 Before we begin to explore the properties of _individual layers_ in the **Map Document**, we will first spend some time getting familiar with the _navigation tools_ in the **Map Document**.  Most of these tools can be found on the **Map Tab: Navigation** toolbar, though some of the more useful ones involve right-clicking context menus of the layers, or using the mouse and mouse wheel (press to Pan, role to zoom).
 
 #### Zoom to layer
