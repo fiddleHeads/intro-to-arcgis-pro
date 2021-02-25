@@ -36,18 +36,12 @@ Using the **Catalog Title Bar**, click and drag the Catalog Pane away from its d
 
 #### Explore the Windows (Catalog)
 
-**THIS SECTION NEEDS TO BE REVISED TO REFLECT ADDING LANGUAGE DATA, PROBABLY FROM A GDB, NOT AS SHAPEFILES**
-
-Using the Windows Explorer,  navigate to the **data** folder where you previously downloaded the workshop materials.
-
-![shapefile.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/shapefile.jpg)
-
-Note that there are more files in this folder than appear in the Table of Contents in the ArcGIS Pro interface. This is because a [Shapefile](https://www.gislounge.com/what-is-a-shapefile/) is not actually _a file_, but instead _a collection of files_.
+Using the Windows Explorer, navigate to the **Intro** folder containing the previously downloaded the workshop materials.
 
 *1*{: .circle .circle-blue} Return to ArcGIS Pro and right-click on the folders item in the **Catalog Pane**, then select **Add Folder Connection** (or **Go to Insert**) **> Add Folder**
 
-*2*{: .circle .circle-blue} Select the **Desktop** icon and click **OK**.
+*2*{: .circle .circle-blue} Select the **Downloads** icon and click **OK**.
 
-*3*{: .circle .circle-blue} Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **data** folder.
+*3*{: .circle .circle-blue} Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **Intro.gdb**.
 
-Note that the features are simplified in the **Catalog Window**. Although the Feature Class is made of several files, ArcGIS Pro knows it's better just to show the Shapefile. This allows you to copy, paste, rename, etc. without having to manage several files per dataset.
+There should be three [feature classes](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/feature-class-basics.htm) in this geodatabase. A geodatabase helps us organize data collections in ArcGIS projects.
