@@ -8,8 +8,8 @@ nav_order: 1
 
 <p align="center">
   <a href="master/index.">Introduction</a>&nbsp;|
-  <a href="master/index.">Land Acknowledgement</a>&nbsp;|
-  <a href="master/index.">Participating online</a>&nbsp;|
+  <a href="master/land-acknowledgement.">Land Acknowledgement</a>&nbsp;|
+  <a href="master/online-participate.">Participating online</a>&nbsp;|
   <a href="content/user-interface">User Interface</a>&nbsp;|
   <a href="content/start-a-project">Starting a Project</a>&nbsp;|
   <a href="content/maps">Maps and Map Properties</a>&nbsp;|
