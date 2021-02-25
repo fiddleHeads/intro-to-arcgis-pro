@@ -16,6 +16,8 @@ Almost everything you might want to do with a layer can be done under the **Feat
 
 _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
 
+The data we'll be working with represents [Household Population by Mother Tongue](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop095-eng.cfm) from the 2016 Census. It was retrieved from SimplyAnalytics, one of the [databases](https://resources.library.ubc.ca/?action=resources&rpaction=select&search=simplyanalytics&searchtype=keywords&format=) available from the UBC library.
+
 *1*{: .circle .circle-blue} Click on the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
 
 *2*{: .circle .circle-blue} Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’. 
