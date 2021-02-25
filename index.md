@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Map Production in GIS with ArcGIS Pro
-nav_order: 1
+nav_order: 3
 ---
 
 # Map Production in GIS with ArcGIS Pro
@@ -56,7 +56,7 @@ There will be three applications that come with your download of ArcGIS Desktop.
 For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 #### Download Workshop Data
-To get started with this workshop, you'll need to first download a [shapefile](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/shapefiles/what-is-a-shapefile.htm) of street tree data that we retrieved from the City of Vancouver [Open Data Portal.](https://opendata.vancouver.ca/pages/home/). 
+To get started with this workshop, you'll need to first download a [geodatabase](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/what-is-a-geodatabase-.htm) of mother tongue language data for Vancouver, as well as a project folder, the contents of which are described below.
 
 Included in your download is a project folder containing the following files:
 - Intro.**gdb**: the geodatabase with data for your map
@@ -64,13 +64,9 @@ Included in your download is a project folder containing the following files:
 - Intro.**tbx**: a toolbox with analytical tools for your project
 - Index: folder with background organizing information
 
-THIS NEEDS TO BE CHANGED TO DOWNLOAD WORKSHOP GDB CONTAINING LANGUAGE SPOKEN AT HOME DATA
-
-Download [Data](https://opendata.vancouver.ca/explore/dataset/street-trees/download/?format=shp&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
+Download [Data](https://www.dropbox.com/s/vgsu6ug23x3ifht/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
 *1*{: .circle .circle-blue} Save this file (.**zip**) to your Desktop.
 
 *2*{: .circle .circle-blue} Right-click on the .zip file you just downloaded and select **Extract All**...
 
 *3*{: .circle .circle-blue} Accept all defaults to extract the file.    
-
-## Need to add Pro project to download still and add shapefile to GitHub or somewhere else to download...
