@@ -17,8 +17,8 @@ You'll see that your layers (in your **Contents Pane**) have a small :exclamatio
 
 ![brokenLink.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/brokenLink.jpg)
 
-*1*{: .circle .circle-blue} Click on the red :exclamation: next to the Language Spoken at Home layer in the **Contents** pane.
+*1*{: .circle .circle-blue} Click on the red :exclamation: next to the **househldPopMotherTong_joinToThis** layer in the **Contents** pane.
 
-*2*{: .circle .circle-blue} Navigate to the Intro.gdb of the tutorial dataset and select the feature dataset that corresponds to the layer you clicked and select **OK**.
+*2*{: .circle .circle-blue} Navigate to the **Intro.gdb** of the tutorial dataset and select the feature dataset that corresponds to the layer you clicked and select **OK**.
 
 Since all your layers are in the same directory, all of your layers should now be repaired. It's generally good practice to have your data organized logically, which will help to fix the inevitable broken link issue.
