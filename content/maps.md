@@ -53,6 +53,8 @@ As mentioned earlier, ArcGIS Pro makes it easy to interact with data available o
 
 You can see that our data covers the city of Vancouver but excludes the UBC campus.
 
+*2*{: .circle .circle-blue} Save your map by clicking the third icon from the left in the upper left of your screen.
+
 #### Display Order
 The **Layer Order** in the **Table of Contents** determines the order of display in your **Data Frame**, when it is in the "List by Drawing Order" mode. Note that you can also display your **Contents** as “List by Source”.
 
