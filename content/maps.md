@@ -18,7 +18,7 @@ This allows you to add geographic data with different native Coordinate Systems 
 In addition, disparate Projection/Coordinate Systems can cause major issues and errors when analyzing across layers (i.e. when geoprocessing that requires transfer of attributes across layers).
 
 #### Change a Coordinate Reference System
-Because of the issues with working with data in different projections in the same data frame, **it is good practice to select a Projection/Coordinate system that is suitable for your particular analysis and scale, and project all of your data to the same**. The UTM Zone 10 projection is an appropriate one to use for the City of Vancouver. To change the coordinate system of the underlying map:
+Because of the issues with working with data in different projections in the same data frame, **it is good practice to select a Projection/Coordinate system that is suitable for your particular analysis and scale, and project all of your data to the same**. The [UTM Zone 10 projection](https://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/maps/utm-grid-map-projections/utm-grid-universal-transverse-mercator-projection/9779) is an appropriate one to use for the City of Vancouver. To change the coordinate system of the underlying map:
 
 *1*{: .circle .circle-blue}	**Right-click** on the **Map Item** at the top of the **Contents** and select **Properties**…
 
@@ -46,18 +46,12 @@ In addition to the **Zoom to Layer** option, the **Tools Toolbar** provides the 
 - The **Fixed Zoom Out** button :exclamation:.
 - The **Previous Extent** works much like its analogous tool in your web browser, allowing you to step back through previous changes in scale/extent. This tool is particularly useful if you change your **Data Frame** extent inadvertently.
 
-#### Bookmarks
-Another useful navigation tool is the ability to create spatial **Bookmarks** that allow you to return to specific scales/extents that you define.
+#### Basemap
+As mentioned earlier, ArcGIS Pro makes it easy to interact with data available on ArcGIS Online, including basemaps. Since we don't have any reference map for the language data we brought into the map, a basemap can help situate where in the world this data is located. 
 
-*1*{: .circle .circle-blue} Using the **Zoom Tools** on the **Tools Toolbar**, zoom your map view to the area around **Downtown Vancouver**.
+*1*{: .circle .circle-blue} From the **Map** tab at the top of the map, click the **Basemap** dropdown menu and select the **Light Gray Canvas** basemap, or another one if you prefer. 
 
-*2*{: .circle .circle-blue} **Select Bookmarks > Create Bookmark**.
-
-*3*{: .circle .circle-blue} Name your Bookmark “***Downtown Vancouver***” and **click OK**.
-
-*4*{: .circle .circle-blue} **Click** on the **Full Extent** button in the **Tools Toolbar**.
-
-*5*{: .circle .circle-blue} Return to **Bookmarks** and **select** your new **Downtown Vancouver** bookmark.
+You can see that our data covers the city of Vancouver but excludes the UBC campus.
 
 #### Display Order
 The **Layer Order** in the **Table of Contents** determines the order of display in your **Data Frame**, when it is in the "List by Drawing Order" mode. Note that you can also display your **Contents** as “List by Source”.
