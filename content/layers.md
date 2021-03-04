@@ -9,18 +9,23 @@ has_children: true
 
 #### Layer Visibility
 The **Table of Contents** also controls Layer Visibility.  You can toggle the Layer Visibility using the checkbox next to each Layer in the Table of Contents.
-- Use the Visibility Checkbox next to the **streetTrees** layer to turn off the visibility of the layer and reveal the other layers again.
+- Use the Visibility Checkbox next to the **househldPopMotherTong_joinToThis** layer to turn on and off the visibility of the layer and any other layers in the map.
 
 #### Feature Layer Tab
 Almost everything you might want to do with a layer can be done under the **Feature Layer** tabs.  There are often short-cuts to do these tasks also, but the **Feature Layer** tab can help you first find ways to work with layers.  
 
 _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
 
-The data we'll be working with represents [Household Population by Mother Tongue](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop095-eng.cfm) from the 2016 Census. It was retrieved from SimplyAnalytics, one of the [databases](https://resources.library.ubc.ca/?action=resources&rpaction=select&search=simplyanalytics&searchtype=keywords&format=) available from the UBC library.
+The data we'll be working with represents [Household Population by Mother Tongue](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop095-eng.cfm) from the 2016 Census. It was retrieved from SimplyAnalytics, one of the [databases](https://resources.library.ubc.ca/?action=resources&rpaction=select&search=simplyanalytics&searchtype=keywords&format=) available from the UBC library. A mother tongue language is a person's first language. We will use data on household population by mother tongue language aggregated by [census subdivision](https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/csd-sdr/csd-sdr-eng.htm).
 
-*1*{: .circle .circle-blue} Click on the Street Trees layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
+In this workshop, we will analyze this data to understand the spatial distribution of linguistic diversity in Vancouver. Although another Census variable, language spoken at home, could also be used, for the purposes of our analysis, we'll use houshold population by mother tongue to visualize where languages are spoken across the city.
+
+
+*1*{: .circle .circle-blue} Click on the **househldPopMotherTong_joinToThis** layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
 
 *2*{: .circle .circle-blue} Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’. 
+
+START HERE
 
 ### Field Names
 There are certain [rules](https://support.esri.com/en/technical-article/000005588) associated with field names, but the alias for a field name has more flexibility. Before we start exploring the attributes of the data, we'll add aliases to the field names to make them easier to understand and work with.
