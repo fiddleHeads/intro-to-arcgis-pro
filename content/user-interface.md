@@ -18,6 +18,13 @@ Open the software and get familiar with the default user interface.
 You should see something like this:
 ![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
 
+#### Signing into ArcGIS Pro
+If you weren't already prompted to sign into your ArcGIS Online or UBC ArcGIS account, let's make sure to do so now. One of the advantages to ArcGIS Pro is its seamless connection to and interaction with ArcGIS Online and all of the layers and basemaps available.
+
+*1*{: .circle .circle-blue} From the upper right of your map window, click the dropdown menu next to **Not signed in** and select **Sign in**.
+
+*2*{: .circle .circle-blue} Sign into your ArcGIS Online account.
+
 #### Main UI Components
 The ArcGIS Pro user interface (UI) has a few main components:
 - The **Map Frame**: This is where your data will be visualized.
