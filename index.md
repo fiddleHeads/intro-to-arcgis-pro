@@ -56,6 +56,8 @@ There will be three applications that come with your download of ArcGIS Desktop.
 
 For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
+Depending on the type of license you have, you may need to sign into ArcGIS Pro. If you purchased the UBC ArcGIS student license, you can sign into the same account you use for [ArcGIS Online](https://www.arcgis.com/index.html). You can also create a free public ArcGIS Online account to use if you have a temporary ArcGIS Desktop license. We will be accessing data on ArcGIS Online via ArcGIS Pro, so signing in is recommended.
+
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download a [geodatabase](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/what-is-a-geodatabase-.htm) of mother tongue language data for Vancouver, as well as a project folder, the contents of which are described below.
 
