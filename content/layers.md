@@ -5,13 +5,13 @@ nav_order: 7
 has_children: true
 ---
 
-## WORKING WITH LAYERS
+### WORKING WITH LAYERS
 
-#### Layer Visibility
+### Layer Visibility
 The **Table of Contents** also controls Layer Visibility.  You can toggle the Layer Visibility using the checkbox next to each Layer in the Table of Contents.
 - Use the Visibility Checkbox next to the **househldPopMotherTong_joinToThis** layer to turn on and off the visibility of the layer and any other layers in the map.
 
-#### Feature Layer Tab
+### Feature Layer Tab
 Almost everything you might want to do with a layer can be done under the **Feature Layer** tabs.  There are often short-cuts to do these tasks also, but the **Feature Layer** tab can help you first find ways to work with layers.  
 
 _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature tab, or by right-click and ‘properties’ options in the contents.)_
