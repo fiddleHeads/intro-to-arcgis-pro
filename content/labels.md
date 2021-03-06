@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Labels
-nav_order: 7
+nav_order: 10
 parent: Working with Layers
 ---
 
