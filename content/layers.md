@@ -23,49 +23,21 @@ In this workshop, we will analyze this data to understand the spatial distributi
 
 *1*{: .circle .circle-blue} Click on the **househldPopMotherTong_joinToThis** layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
 
-*2*{: .circle .circle-blue} Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’. 
+*2*{: .circle .circle-blue} Go to the **Data** tab. The first block has a **Definition Query Tool**. The second block has a **Table Tool** with a button to open the ‘_Attribute Table_’. Click on this to open the attribute table.
 
-START HERE
+You can also open the attribute table of a layer by right-clicking on that layer in the **Contents** panel and selecting **Attribute Table** to open it.
 
-### Field Names
-There are certain [rules](https://support.esri.com/en/technical-article/000005588) associated with field names, but the alias for a field name has more flexibility. Before we start exploring the attributes of the data, we'll add aliases to the field names to make them easier to understand and work with.
+*3*{: .circle .circle-blue} Scroll all the way to right of the attribute table and notice the fieldnames and data present.
 
-*1*{: .circle .circle-blue} **Right-click** on the **Street Trees** layer and select **Attribute Table** to open it.
+Do you see any replication? What do you think the numbers represent?
 
-*2*{: .circle .circle-blue} There are two ways to change field aliases. Under the **View** tab, select **Fields**. Alternatively, right-click on one of the column names in the attribute table and select **Fields**.
+Every feature you see in a map has a backend database associated with it where information is stored, called the [attribute table](http://wiki.gis.com/wiki/index.php/Attribute_table), which appears much as a spreadsheet. The most basic method of analysis in GIS is selection and sub-setting of data by attribute values.
 
-*3*{: .circle .circle-blue} From the newly opened table containing only Field Name information, click on **std_street** under the **Alias** column. You can see that by clicking in that field it becomes editable. 
 
-We can learn more about what the fields stand for by examining the [data schema](https://opendata.vancouver.ca/explore/dataset/street-trees/information/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id) provided on the City of Vancouver Open Data Portal. 
-Scroll down and then expand the data schema to see what the different fields represent.
 
-*4*{: .circle .circle-blue} Change the aliases according to the following table.
-
-| Original  | Change to |
-| ------------- | ------------- |
-| std_street  | Street site |
-| on_street  | Street name |
-| species_na  | Species name |
-| diameter  | Diameter |
-| date_plant  | Date planted |
-| root_barri  | Root barrier |
-| street_sid  | Street side |
-| genus_name  | Genus name |
-| neighbourh  | Neighbourhood |
-| assigned  | Assigned |
-| civic_numb  | Street address |
-| plant_area  | Plant area |
-| curb  | Curb |
-| tree_id  | Tree ID |
-| common_nam  | Common name |
-| height_ran  | Height range |
-| on_street_  | Block |
-| cultivar_n  | Cultivar name |
-
-*5*{: .circle .circle-blue} Save your edits by clicking on **Save** under the Fields tab at the top of the map.
 
 ### Layer Attributes
-The most basic method of analysis in GIS is selection and sub-setting of data by attribute values. Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the diameter of the treet and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
+ Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the diameter of the treet and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
 
 *1*{: .circle .circle-blue} **Right-Click** on the **Street Trees** layer and select **Attribute Table** to open the **Attribute Table** of the layer.
 
