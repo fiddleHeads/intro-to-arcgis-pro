@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Add Data
-nav_order: 8
+nav_order: 11
 parent: Working with Layers
 ---
 
 ## NEEDS REWORKING
 
-### Adding Data
+### Add Data
 Let's see if we can find population data for Vancouver that will help us analyze how many trees per capita there are in each neighbourhood in the city.
 The City of Vancouver [Open Data Portal](https://opendata.vancouver.ca/pages/home/) provides [2016 Census Area Profile](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/) data from [Statistics Canada](https://www.statcan.gc.ca/eng/start).
 
@@ -25,22 +25,6 @@ Let's add this spreadsheet to our **Map Document**.
 3.	Now look on the **Contents Pane**, you should see the table under the **Standalone Tables** tab.
 
 This table was previously added to the **workshop.gdb** in order to be able to join it with other layers in the geodatabase. If the table is outside the geodatabase, the join we want to do with the **Street Trees** layer would not work.
-
-### Joining Tables
-
-Now we will turn our attention to the **streetTrees** layer. Ultimately, we would like to visualize the layer based upon population density, which we can only do by joining the **NeighborhoodPop** table which contains population per neighbourhood.
-
-1. Right-click on the **NeighborhoodPop** table and select **Open**.
-2. Scroll through the attributes and note the **Neighbourhood** and **Population** attribute fields. Close the table.
-3. Open the attribute table for the **streetTrees** layer and note that it also has a **Neighbourhood** attribute field, but not a **Population** attribute field. Close the table.
-
-Since the **Neighbourhood** attribute exists in both of these attribute tables, and its values are identical across the two datasets, we can use this attribute as the “**Key Field**” for our table join.
-
-4.	Right-click on the attribute table for the **streetTrees** layer in the Table of Contents and select **Joins and Relates > Add Join…**
-5.	Select **Neighbourhood** as the **Input Join Field** (there may be a warning indicated by an exclamation point in a triangle about indexing. We can ignore that for this join).
-6.	If it is not selected automatically, select **NeighborhoodPop** as the **Join Table** and **Neighbourhood** as the **Join Table Field** for this table.
-7.	Click **OK** to create the join.
-8.	Open the attribute table for the **streetTrees** layer and note the new **Population** and **Neighbourhood** fields.
 
 ### Definition Queries
 ***need to edit this entire section***
