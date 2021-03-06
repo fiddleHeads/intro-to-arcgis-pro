@@ -33,76 +33,20 @@ Do you see any replication? What do you think the numbers represent?
 
 Every feature you see in a map has a backend database associated with it where information is stored, called the [attribute table](http://wiki.gis.com/wiki/index.php/Attribute_table), which appears much as a spreadsheet. The most basic method of analysis in GIS is selection and sub-setting of data by attribute values.
 
+This dataset had to be downloaded as multiple datasets. All but one remaining dataset have already been joined together.
 
+*4*{: .circle .circle-blue} **Right-Click** on the **househldPopMotherTong_joinTbl** layer and select **Attribute Table** to open it.
 
+Do you recognize any fieldnames from the attribute table of the first layer we opened? What do you think **VALUE0, VALUE1**, etc. represent? 
 
-### Layer Attributes
- Now that the Street Trees layer is visible again, we can begin to address the fact that this layer is a bit overpopulated for our purposes. Let us say we are interested in visualizing trees by the diameter of the treet and the neighbourhood they were planted in. First, we need to see if the data necessary to do this exists in our dataset.
+Notice there is another layer listed under **Standalone Tables** called **variable_names**.
 
-*1*{: .circle .circle-blue} **Right-Click** on the **Street Trees** layer and select **Attribute Table** to open the **Attribute Table** of the layer.
+*5*{: .circle .circle-blue} **Right-Click** on the **variable_names** layer and select **Attribute Table** to open it.
 
-*2*{: .circle .circle-blue} **Click**, **drag** and **move** around the resulting table window. You can dock it again using the **Docking Square**.
+Notice there is no way to view **variable_names**. It only exists as a table. Each data download for the language data came with both a spatial feature layer and an accompanying table. The information in the table was used to rename the **VALUE** fields in the spatial feature layer with meaningful information. When bringing Census data into a GIS, it often requires additional manipulation before it can be used or understood.
 
-*3*{: .circle .circle-blue} **Right-click** on the column name **diameter** and select Sort Descending.
+*6*{: .circle .circle-blue} Expand the width of **Field1** to view all of the information. 
 
-*4*{: .circle .circle-blue} **Scroll** down through the attribute table to examine the relationship among the **diameter**, **genus_name**, and **neighbourh** variables.
+You'll notice that these values represent four additional languages which are not yet present in the **househldPopMotherTong_joinToThis** layer.
 
-#### Select by Attributes
-It's difficult to understand the range of dates by scrolling down in such a large dataset, so we'll use the Select by Attributes tool to first explore the dates available and then to select a subset of trees with larger diameters.
-
-*1*{: .circle .circle-blue} On the **Map Tab**, go to the **Selection Tool**.
-
-*2*{: .circle .circle-blue} Find and click on the **Select by Attributes** button.
-
-Pin the Geoprocessing Pane and set the following parameters:
-
--	Input Rows: Street Trees
-- Selection type: New Selection
-- Click: New Expression
-
-For the Expression, Where:
-
--	Field: diameter
-- is equal to (this is the default)
-- click the dropdown in the third box of the clause to see the range of values
-
-This is a good example of how you can use the Select by Attributes tool to better view the data before you even make a selection.
-
-![dropdown.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/dropdown.jpg)
-
-In this dropdown, the dates are sorted by default in order of smallest to largest.
-
-<details>
-<summary>What is the largest diameter value in the dataset?</summary>
-
-435
-</details>
-<br>
-
-Let's return to the **Select by Attributes** query we were building.
-For the Expression, Where:
-
--	Field: diameter
-- is greater than or equal to
-- '40'
-
-*1*{: .circle .circle-blue} Click on the “**Run**” button at the bottom of geoprocessing window to apply the selection to your **Street Trees** layer.
-
-*2*{: .circle .circle-blue} Scroll through the attribute table and note the records that are selected.
-
-*3*{: .circle .circle-blue} You can observe that the selection from the attribute table is also reflected in the map.
-
-Notice that the selection looks more manageable that the full dataset.  Now you will export this selection as a new Shapefile, and bring it back into the map as a new layer. As you do this, you will take advantage of a sort of “universal task" in ArcGIS Pro. Anytime you have selected a subset of one of your data layers ArcGIS Pro will only act on that subset while it is active. This means that geoprocessing, attribute calculations, data exports, etc., act as if the active selection is the whole of the dataset. This can come in quite handy.
-
-*1*{: .circle .circle-blue} Right-click on the **Street Trees** layer in the **Contents** and select **Data > Export Features** …
-(_The option is also available under the **Feature Layer** set **> Data Tab > Export** block_).
-
-*2*{: .circle .circle-blue} In the **Export Features** window click on the **Browse** button to save the feature class into the **workshop.gdb** to save as **largeDiameter**. _Note that the default is to save the new feature into the ***same*** database as the previous feature_.
-
-*3*{: .circle .circle-blue} Click **Run**.
-
-![exportData.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/exportData.jpg)
-
-Uncheck the original Street_Trees layer and close the attribute table.
-
-Next we'll symbolize these two layers.
+In the next section, we'll rename the **VALUE** fields in the **househldPopMotherTong_joinTbl** layer and then join this to the **househldPopMotherTong_joinToThis** layer.
