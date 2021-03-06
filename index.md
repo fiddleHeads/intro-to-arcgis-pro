@@ -18,7 +18,7 @@ nav_order: 1
   <a href="content/what-next">What Next?</a>
 </p>
 
-## INTRODUCTION
+### INTRODUCTION
 
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **ArcGIS Pro** for exploring and analyzing spatial data.
 
