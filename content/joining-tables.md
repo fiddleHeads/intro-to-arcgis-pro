@@ -65,7 +65,9 @@ Note that this is a temporary join and has not altered the underlying dataset. I
 
 *3*{: .circle .circle-blue} Use **househldPopMotherTong** for the **Output Name** and click **OK** to create a new feature class, which should be added to your map when the process is completed.
 
-*4*{: .circle .circle-blue} Uncheck other layers and open the attribute table for the new feature class you just created.
+*4*{: .circle .circle-blue} Unjoin the table from the **househldPopMotherTong_joinToThis** layer by right-clicking on this layer in the **Contents** pane and selecting **Joins and Relates** > **Remove Join**.
+
+*5*{: .circle .circle-blue} Uncheck other layers and open the attribute table for the new feature class you just created.
 
 ### Delete Fields
 
@@ -87,8 +89,16 @@ This will select three rows which you can then delete together.
 
 *6*{: .circle .circle-blue} If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
 
-### Exercise On Your Own
-*1*{: .circle .circle-blue} Click the **Add Data** dropdown arrow from the **Map** tab and select **Data**, the first option.
+### Exercise On Your Own NEED TO FIND DIFFERENT POPULATION DATASET
+*1*{: .circle .circle-blue} 
+
+*2*{: .circle .circle-blue} Click the **Add Data** dropdown arrow from the **Map** tab and select **Data**, the first option.
+
+*2*{: .circle .circle-blue} Navigate to the **Intro.gdb** and add the **totalPop** feature class to your map.
+
+*3*{: .circle .circle-blue} Using the same steps as above, join the **totalPop** table to the **househldPopMotherTong** layer using **spatial_id** and then export the data to a new feature class and call it **popMotherTongByTract**.
+
+*4*{: .circle .circle-blue} Delete any extraneous **spatial_id**
 
 
 In the next section, we'll add and calculate new fields using the data.
