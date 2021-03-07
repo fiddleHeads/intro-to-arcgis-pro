@@ -5,7 +5,7 @@ nav_order: 9
 parent: Working with Layers
 ---
 
-### ANALYZING DATA
+### VISUALIZING DATA
 Let's take a look at data again to understand what we're working with.
 
 *1*{: .circle .circle-blue} Open the attribute table of the **popMotherTongTractVan_Final** layer if it's not already open.
