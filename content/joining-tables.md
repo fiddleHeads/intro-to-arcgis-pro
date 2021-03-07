@@ -89,16 +89,19 @@ This will select three rows which you can then delete together.
 
 *6*{: .circle .circle-blue} If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
 
-### Exercise On Your Own NEED TO FIND DIFFERENT POPULATION DATASET
-*1*{: .circle .circle-blue} 
+### Exercise On Your Own
+We want to join one more dataset to our table which contains attributes for the total population by Census tract, also downloaded from SimplyAnalytics accessed through the UBC library. This will allow us to further analyze the language data we have.
 
-*2*{: .circle .circle-blue} Click the **Add Data** dropdown arrow from the **Map** tab and select **Data**, the first option.
+*1*{: .circle .circle-blue} Click the **Add Data** dropdown arrow from the **Map** tab and select **Data**, the first option.
 
-*2*{: .circle .circle-blue} Navigate to the **Intro.gdb** and add the **totalPop** feature class to your map.
+*2*{: .circle .circle-blue} Navigate to the **Intro.gdb** and add the **totalPopTract** feature class to your map.
 
-*3*{: .circle .circle-blue} Using the same steps as above, join the **totalPop** table to the **househldPopMotherTong** layer using **spatial_id** and then export the data to a new feature class and call it **popMotherTongByTract**.
+*3*{: .circle .circle-blue} Using the same steps as above, join the **totalPopTract** table to the **househldPopMotherTong** layer using **spatial_id** and then export the data to a new feature class and call it **popMotherTongTractVan**.
 
-*4*{: .circle .circle-blue} Delete any extraneous **spatial_id**
+Each time I create a new dataset, I want to try and name it something that identifies what it is. Data management in GIS can be unruly, and having a good file naming system is essential.
 
+*4*{: .circle .circle-blue} Delete any extraneous fields that got added toward the bottom of the attribute table in the **Fields View**.
 
-In the next section, we'll add and calculate new fields using the data.
+*5*{: .circle .circle-blue} Rename the **VALUE0** Alias field to **Total Pop**, save your edits, and exit the **Fields View**.
+
+In the next section, now that we have a complete dataset, we'll further analyze this data.
