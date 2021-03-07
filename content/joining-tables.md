@@ -87,4 +87,8 @@ This will select three rows which you can then delete together.
 
 *6*{: .circle .circle-blue} If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
 
+### Exercise On Your Own
+*1*{: .circle .circle-blue} Click the **Add Data** dropdown arrow from the **Map** tab and select **Data**, the first option.
+
+
 In the next section, we'll add and calculate new fields using the data.
