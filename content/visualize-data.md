@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Analyzing Data
+title: Visualizing Data
 nav_order: 9
 parent: Working with Layers
 ---
@@ -59,6 +59,25 @@ For the Expression, Where:
 
 In the attribute table, three records are selected, but it may not be apparent at first.
 
-*2*{: .circle .circle-blue}   is selectedScroll through the attribute table and note the records that are selected.
+*2*{: .circle .circle-blue} At the bottom of the attribute table, note that it says "**3 of 117 selected**". Click the cyan button that is not selected to the left of these words to see only the selected records.
 
-*3*{: .circle .circle-blue} You can observe that the selection from the attribute table is also reflected in the map.
+*3*{: .circle .circle-blue} Close the attribute table to better see the selected records on the map.
+
+### Change the Symbology
+*1*{: .circle .circle-blue} Click on the **Appearance** tab at the top of the map and click the dropdown arrow under **Symbology** and select **Single Symbol**.
+
+*2*{: .circle .circle-blue} In the **Symbology** window, click on the symbol itself, the yellow box, or whatever color yours appears to be.
+
+*3*{: .circle .circle-blue} Click on **Properties** if it's not already selected and click the dropdown arrow next to **Color** and select **No color**.
+
+*4*{: .circle .circle-blue} Click on **Apply**.
+
+Now we just see the outlines of the Census tracts. Let's change the basemap to get a better idea of wehre these are located.
+
+*5*{: .circle .circle-blue} As you did before, from the **Map** tab, select the **Basemap** dropdown menu and select the **Streets** basemap.
+
+*6*{: .circle .circle-blue} Zoom into the selected tracts to see where in Vancouver larger numbers of mother tongue speakers of Indigenous languages are spoken.
+
+We see that these tracts are in an area known as the Downtown Eastside. If you are familiar with Vancouver, you may associate this area with large disparities between rich and poor, with fancy stores and restaurants and housing, along with large homeless populations.
+
+A simple data query and selection and visual analysis is enough to ask further questions about why a certain spatial pattern exists in a certain area. We are going to further explore symbology as a way to understand a dataset, but think about how you might go about understanding why the Census tracts with the highest numbers of speakers are clustered where they are. Is there a historical connection to this area? Would income data be informative? Are there relevant community institutions? 
