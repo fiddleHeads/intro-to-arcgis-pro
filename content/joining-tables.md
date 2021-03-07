@@ -41,7 +41,7 @@ The next step is to join this dataset to the **househldPopMotherTong_joinToThis*
 
 *1*{: .circle .circle-blue} Examine the fieldnames in the attribute tables of these two datasets and see if you can find a common field to perform the join on.
 
-Joining two tables together requires that they have a field in common, and this is often an identifier field. In our two tables, the **spatial_id** field is the identifier for Census subdivisions, and this is the field we'll use to join our two datasets.
+Joining two tables together requires that they have a field in common, and this is often an identifier field. In our two tables, the **spatial_id** field is the identifier for Census tracts, and this is the field we'll use to join our two datasets.
 
 *2*{: .circle .circle-blue} Close any open tables and save your map in the upper left.
 
