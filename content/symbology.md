@@ -6,10 +6,9 @@ parent: Working with Layers
 ---
 
 ### Symbology
-Now we have two tree layers to work with, and would like to distinguish them from one another visually.
+*1*{: .circle .circle-blue} Highlight the **househldPopMotherTong** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
 
-1. Highlight the new **largeDiameter** layer in the **Contents** pane and on the **Menu Bar** at the top of the screen, click on **Appearance**.
-2. Click on the dropdown arrow under the **Symbology** option and select **Graduated Colors**.
+*2*{: .circle .circle-blue} Click on the dropdown arrow under the **Symbology** option and select **Unique Values**.
 
 [Graduated color](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/graduated-colors.htm) symbology is used to show a quantitative difference between mapped features by varying the color of symbols.
 
