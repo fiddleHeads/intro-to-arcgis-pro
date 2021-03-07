@@ -87,4 +87,4 @@ This will select three rows which you can then delete together.
 
 *6*{: .circle .circle-blue} If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
 
-In the next section, we'll visualize the language data in the map by symbolizing it.
+In the next section, we'll add and calculate new fields using the data.
