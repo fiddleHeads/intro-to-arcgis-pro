@@ -51,4 +51,4 @@ Using the Windows Explorer, navigate to the **Intro** folder containing the prev
 
 *3*{: .circle .circle-blue} Expand the resulting **Folder Connection** in the **Catalog Window** and expand the **Intro.gdb**.
 
-There should be three [feature classes](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/feature-class-basics.htm) in this geodatabase. A geodatabase helps us organize data collections in ArcGIS projects.
+There should be four [feature classes](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/feature-class-basics.htm) and one table in this geodatabase. A geodatabase helps us organize data collections in ArcGIS projects.
