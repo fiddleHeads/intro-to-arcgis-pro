@@ -48,15 +48,17 @@ Using this option means that Pro is totalling all of the values for each Census 
 
 If you examine some of the polygons attributed with the first classification break using Natural Breaks, however, you may see that it includes Census tracts with four speakers for example (you can use the **Select** tool to click on a polygon and then on **Attributes** from the **Selection** pane to view the number of Aboriginal Language speakers represented for each Census tract). Because the numbers of speakers are so low across many Census tracts, we want to make sure we include a classification method that makes even these visible.
 
-*4*{: .circle .circle-blue} Now select **Geometric Interval** as the method, which is good at highlighting values in the middle as well as extreme values. It is a good option to use when 
+*4*{: .circle .circle-blue} Now select **Geometric Interval** as the method, which is good at highlighting values in the middle as well as extreme values. It is a good option to use when a dataset, like ours, has a lot of zero values.
 
+*5*{: .circle .circle-blue} Click on the **Advanced symbology options** from the **Symbology** pane and select **Percentage** under **Category**, which is easier to understand than rate.
 
-5. Select the **Oranges (Continuous) Color scheme**.
-6. Using the same method, change the symbol for the original **Street Trees** layer to **Unique Values** using the **Neighbourhood** field.
-7. Use the **Circle 1** symbol with a size of **2 points** and choose a different **Color Scheme**.
-8. Save the map by clicking on the save icon in the upper left of the map.
+We'll leave the default number of classes (5) and the color scheme. Because it's misleading to have zero value polygons symbolized with a color, let's remove the color for the first classification category.
 
-In the example below, using the symbology settings specified above, the neighbourhoods are clearly delineated.
-![treesNeigh.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/treesNeighb.jpg)
+*5*{: .circle .circle-blue} Click on the **Symbol** polygon in the first row under the **Classes** tab and select **No color** from the **Color** dropdown and click **Apply**. It may make the map look a little funny, but it's more honest. 
 
-In the next section, we'll learn how to apply labels to certain features.
+*6*{: .circle .circle-blue} Select the **Dark Gray** basemap and save your map.
+
+Your map should look something like this:
+![chloropleth.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/2021-03-07_15-57-42.jpg)
+
+In the next section, we'll use a different symbology to explore other languages.
