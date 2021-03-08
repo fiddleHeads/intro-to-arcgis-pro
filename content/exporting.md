@@ -55,36 +55,64 @@ Now you can move the map around, pan and zoom in and out until you get the map t
 ### Adding Map Elements
 
 ### Map Legend
-*1*{: .circle .circle-blue} Go to **Insert>Legend** and click on the Map Layout to set the legend.
+*1*{: .circle .circle-blue} Go to **Insert>Legend** and click on the Map Layout to set the legend and drag somewhere visible, like in the lower left.
 
 *2*{: .circle .circle-blue} In the **Contents** pane, list the Map Elements by **Drawing Order**.
 
 *3*{: .circle .circle-blue} Expand the **Legend** in the **Contents** pane and see that the legend is enabled for all of your layers, even though the only legend appearing on the map is what corresponds to what layer you have checked on.
 
-*4*{: .circle .circle-blue} Select the **Legend** for **Mandarin and Cantonese Languages** and under the **Format** Set, go to **Format** tab.
+*4*{: .circle .circle-blue} Select the **Legend** in the **Contents** pane and under the **Format** Set, go to **Format** tab.
 
-*5*{: .circle .circle-blue} Change the Current Selection from Legend to Border and add a Border.
+*5*{: .circle .circle-blue} Change the **Current Selection** from **Legend** to **Border** and make sure no there is Border outline. You can also right-click on the legend in the map and select **Properties**.
 
-6.	Repeat the same procedure to set a Background (white is a good choice).
-7.	Return to the Map Tab
-8.	Click once on the Major_Cities Layer, wait a few seconds, and then click again to highlight the Layer Name for Editing.  Rename the Layer “Major Cities” removing the underscore, and hit the Enter key to commit the change.
+*7*{: .circle .circle-blue} Return to the **Map** tab.
+
+*8*{: .circle .circle-blue}	Click once on the **Mandarin and Cantonese Languages** layer, wait a few seconds, and then click again to highlight the layer name for editing.  Rename the layer **Mandarin and Cantonese** removing the word Languages, and hit the Enter key to commit the change.
 _Note that the change you have made to the name of the Layer is also reflected in the Legend (Layout)._
-9.	Make changes to the other Text Elements of your Layers so that your Legend contains properly formatted and reasonable text descriptions and labels.
+
+*9*{: .circle .circle-blue} Go back to the **Layout** view and click on the **Legend** in the map.
+
+This will bring up the properties for this element on the right of your screen. 
+
+*10*{: .circle .circle-blue} Select **Show properties** under **Legend Items**.
+
+*11*{: .circle .circle-blue} Change the **Patch width** and **heighth** to be 13 pt by 4 pt, respectively and check the **Sclae to fit patch size** box.
+
+This will make the dots symbolizing these two languages easier to see.
+
+### Map Title
+*1*{: .circle .circle-blue} From the **Layout** view, go to **Insert** and then **Straight text** from the **Graphics and Text** section.
+
+*2*{: .circle .circle-blue} Add the following title: Mother Tongue Language Speakers By Census Tract, City of Vancouver
+
+*3*{: .circle .circle-blue} Select the text in the map and go to the **Text Symbol** properties on the right of your map. 
+
+*4*{: .circle .circle-blue} Under the **Appearance** section, select **Lucida Bright** for the **Font name** and 16 pt for the **Size**.
+
+*5*{: .circle .circle-blue} Reposition the title in the middle but ensure it is inside the border of the map. You may need to reactivate the layout view to make the map part smaller so the legend can fit.
 
 ### Scale Bar
-1.	Go back to the Layout View and go to to Insert>Scale Bar
-2.	On the Scale Bar Format > Symbol, Select Scale Line 1
-3.	Go to the Design Tab and set the Number of Divisions to 1 and the Subdivisions to 1.
-4.	Set the Division Units to Miles.
-5.	Click on the Numbers and Marks Tab.
-6.	Set the Number Frequencies to “Divisions”
-7.	Use the Handles to resize and reposition the Scale Bar.
+*1*{: .circle .circle-blue} Go back to the Layout View and go to to Insert>Scale Bar
+
+*2*{: .circle .circle-blue} On the **Scale Bar Format > Symbol**, Select Scale Line 1
+
+*3*{: .circle .circle-blue} Go to the **Design** tab and set the Number of Divisions to 1 and the Subdivisions to 1.
+
+*4*{: .circle .circle-blue} Set the **Division Units** to Kilometers. 
+
+*7*{: .circle .circle-blue} Use the handles to resize and reposition the Scale Bar.
 
 ### Export Your Map
-1.	Save your Work.
-2.	On the Share Tab, go to the Export Tool and click the Layout button…
-3.	Browse to the Intro to ArcGIS Pro folder and save the file as: World_Population
-4.	Change the Save as type to PNG(*.png)
-5.	Change the Resolution to 200 dpi
-6.	Click Export.
-7.	Browse to the Workshop Folder and double click on the EX01_World.png file to view it in the default image viewer.
+*1*{: .circle .circle-blue} Save your Work.
+
+*2*{: .circle .circle-blue} On the **Share** tab, go to the **Export** section and and click the **Layout** button.
+
+*3*{: .circle .circle-blue} Change the Save as type to PNG(*.png).
+
+*4*{: .circle .circle-blue} Browse to the Intro to ArcGIS Pro folder and save the file as: langSpeakers
+
+*5*{: .circle .circle-blue} Change the Resolution to 300 dpi
+
+*6*{: .circle .circle-blue} Click Export.
+
+*7*{: .circle .circle-blue} Browse to the Workshop Folder and double click on the langSpeakers.png file to view it in the default image viewer.
