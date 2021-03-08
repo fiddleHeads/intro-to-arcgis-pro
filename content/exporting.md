@@ -107,7 +107,7 @@ This will make the dots symbolizing these two languages easier to see.
 
 *2*{: .circle .circle-blue} On the **Share** tab, go to the **Export** section and and click the **Layout** button.
 
-*3*{: .circle .circle-blue} Change the Save as type to PNG(*.png).
+*3*{: .circle .circle-blue} Change the Save as type to PDF(*.pdf).
 
 *4*{: .circle .circle-blue} Browse to the Intro to ArcGIS Pro folder and save the file as: langSpeakers
 
