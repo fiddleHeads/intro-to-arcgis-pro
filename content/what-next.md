@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What Next
-nav_order: 8
+nav_order: 14
 ---
 
 ## What's Next?
