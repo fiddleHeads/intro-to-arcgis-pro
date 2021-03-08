@@ -79,7 +79,8 @@ Included in your download is a project folder containing the following files:
 - Intro.**tbx**: a toolbox with analytical tools for your project
 - Index: folder with background organizing information
 
-Download [Data](https://www.dropbox.com/s/umf50059t3l7pky/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
+Download [Data](https://www.dropbox.com/s/on7cjh69uzglojg/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
+
 *1*{: .circle .circle-blue} Save this file (.**zip**) to your Desktop.
 
 *2*{: .circle .circle-blue} Right-click on the .zip file you just downloaded and select **Extract All**...
