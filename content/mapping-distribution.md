@@ -51,6 +51,8 @@ You also may have noticed by now that dot density symbology is more effective fo
 ### Exercise On Your Own
 *1*{: .circle .circle-blue} Create an additional one or two copies of the language data and, using dot density symbology, create one or two examples of the distribution of language speakers for a language of your choice.
 
+You can also compare two or more languages in the same map.
+
 *2*{: .circle .circle-blue} Label these layers accordingly in the **Contents** pane.
 
 We'll use one of these examples to create a map for export in the next section.
