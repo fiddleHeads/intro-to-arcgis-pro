@@ -56,7 +56,7 @@ We'll leave the default number of classes (5) and the color scheme. Because it's
 
 *5*{: .circle .circle-blue} Click on the **Symbol** polygon in the first row under the **Classes** tab and select **No color** from the **Color** dropdown and click **Apply**. It may make the map look a little funny, but it's more honest. 
 
-*6*{: .circle .circle-blue} Select the **Dark Gray** basemap and save your map.
+*6*{: .circle .circle-blue} Select the **Dark Gray** basemap  or uncheck the basemap layers in the **Contents** pane and save your map.
 
 Your map should look something like this:
 ![chloropleth.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/2021-03-07_15-57-42.jpg)
