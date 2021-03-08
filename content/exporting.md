@@ -115,4 +115,4 @@ This will make the dots symbolizing these two languages easier to see.
 
 *6*{: .circle .circle-blue} Click Export.
 
-*7*{: .circle .circle-blue} Browse to the Workshop Folder and double click on the langSpeakers.png file to view it in the default image viewer.
+*7*{: .circle .circle-blue} Browse to the Workshop Folder and double click on the langSpeakers.pdf file to view it in the default image viewer.
