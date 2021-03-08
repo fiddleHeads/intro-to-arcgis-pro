@@ -23,6 +23,18 @@ nav_order: 1
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **ArcGIS Pro** for exploring and analyzing spatial data.
 
 ---
+### Objectives
+By the end of this workshop, you will be able to:
+- Navigate around the ArcGIS Pro interface
+- Join two different datasets together
+- Explore and query data using the attribute table
+- Visualize data using different kinds of symbology
+- Create and export a map
+
+The map you create will look something like this image below.
+
+![map.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/map.jpg)
+
 ### GIS Resources at UBC
 - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)    
 - UBC Library's guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](http://guides.library.ubc.ca/gis)
