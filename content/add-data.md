@@ -1,9 +1,11 @@
+[//]: # (
 ---
 layout: default
 title: Add Data
 nav_order: 13
 parent: Working with Layers
 ---
+)
 
 ## NEEDS REWORKING
 
