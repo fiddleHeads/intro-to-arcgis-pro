@@ -1,10 +1,11 @@
+[//]: # (
 ---
 layout: default
 title: Labels
 nav_order: 12
 parent: Working with Layers
 ---
-
+)
 ### Labels
 Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Arcade or SQL scripting to assemble labels from several attributes and text elements. 
 
