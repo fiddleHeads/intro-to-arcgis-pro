@@ -6,18 +6,6 @@ nav_order: 1
 
 # Map Production in GIS with ArcGIS Pro
 
-<p align="center">
-  <a href="master/index.">Introduction</a>&nbsp;|
-  <a href="master/land-acknowledgement.">Land Acknowledgement</a>&nbsp;|
-  <a href="master/online-participate.">Participating Online</a>&nbsp;|
-  <a href="content/user-interface">User Interface</a>&nbsp;|
-  <a href="content/start-a-project">Starting a Project</a>&nbsp;|
-  <a href="content/maps">Maps and Map Properties</a>&nbsp;|
-  <a href="content/layers">Working with Layers </a>&nbsp;|
-  <a href="content/exporting">Exporting and Saving</a>&nbsp;|
-  <a href="content/what-next">What Next?</a>
-</p>
-
 ### INTRODUCTION
 
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **ArcGIS Pro** for exploring and analyzing spatial data.
