@@ -31,30 +31,15 @@ The map you create will look something like this image below.
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 
 ### Setup
-This workshop requires the installation of Esri ArcGIS available from the [UBC Webstore](http://gis.ubc.ca/software/).
-Students are eligible to download the ArcGIS suite for a fixed amount. As of 2019, this was $30/year.
-For faculty and staff the annual license is more expensive. 
+This workshop requires the installation of Esri ArcGIS Pro available on UBC Library's lab computers via remote workstations on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca). Log into computers in:
+- Digital Scholarship Lab (RM 497) **newest machines**
+- Koerner Library Computer Lab (RM 217)
+- Data/GIS Lab (RM 218 A)
+
+
+The software is also available to UBC Students from the [UBC Webstore](http://gis.ubc.ca/software/). Students are eligible to download the ArcGIS suite for a fixed amount. As of 2019, this was $30/year. 
 
 If you do not want to purchase a license, you can sign up for a [free 21-day trial](https://www.esri.com/en-us/arcgis/trial?rmedium=esri_com_redirects01&rsource=https://links.esri.com/pro/trial).
-
-Make sure you have ArcGIS Desktop installed on your machine prior to the workshop.
-If you need assistance, contact [UBC Geospatial Resources](http://gis.ubc.ca/connect/).
-
-ArcGIS is also available on UBC Library's lab computers via VM's on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca).
-
-### Labs with ArcGIS
-
-Library Lab - Koerner Library Computer Lab (RM 217)
-Library Lab - Data/GIS Lab (RM 218 A)
-Library Lab - Digital Scholarship Lab (RM 497)
-
-There will be three applications that come with your download of ArcGIS Desktop.
-
-- **ArcCatalog**: file browser for managing and organizing your data
-- **ArcMap**: program to view, edit, and analyze data and create maps
-- **ArcGIS Pro**: newer program that has similar functionality to ArcMap but more 3D capability and better communication with ArcGIS Online
-
-For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 Depending on the type of license you have, you may need to sign into ArcGIS Pro. If you purchased the UBC ArcGIS student license, you can sign into the same account you use for [ArcGIS Online](https://www.arcgis.com/index.html). You can also create a free public ArcGIS Online account to use if you have a temporary ArcGIS Desktop license. We will be accessing data on ArcGIS Online via ArcGIS Pro, so signing in is recommended.
 
@@ -67,7 +52,7 @@ Included in your download is a project folder containing the following files:
 - Intro.**tbx**: a toolbox with analytical tools for your project
 - Index: folder with background organizing information
 
-Download [Data](https://www.dropbox.com/s/on7cjh69uzglojg/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
+[Download Data](https://www.dropbox.com/s/on7cjh69uzglojg/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
 
 *1*{: .circle .circle-blue} Save this file (.**zip**) to your Desktop.
 
