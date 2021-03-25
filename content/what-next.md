@@ -25,7 +25,7 @@ You may also be interested in the use of other GIS software to analyze Census da
 
 [canlang (The goal of {canlang} is to easily share language data collected in the 2016 Canadian census. This data was retreived from the 2016 Canadian census data set using the {cancensus} R package)](https://ttimbers.github.io/canlang/)
 
-[Language Diversity in Canada (blog post ](https://www.dshkol.com/2017/language-diversity-in-canada/)
+[Language Diversity in Canada](https://www.dshkol.com/2017/language-diversity-in-canada/)
 
 [Introduction to Using R for Evaluating Census Data](https://www.angelchen.net/blog/introduction-to-using-r-to-evaluate-census-data)
 
