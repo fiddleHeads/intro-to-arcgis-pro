@@ -19,9 +19,19 @@ To learn more about the data we have been working with and Canada's language dat
 
 You may also be interested in the use of other GIS software to analyze Census data. Below are some links to tutorials and resources to get you started.
 
+### R
+
+[Languages Spoken at Home (working with dot density in R)](https://mountainmath.ca/languages-example.nb.html)
+
+[canlang (The goal of {canlang} is to easily share language data collected in the 2016 Canadian census. This data was retreived from the 2016 Canadian census data set using the {cancensus} R package)](https://ttimbers.github.io/canlang/)
+
+[Language Diversity in Canada (blog post ](https://www.dshkol.com/2017/language-diversity-in-canada/)
+
 [Introduction to Using R for Evaluating Census Data](https://www.angelchen.net/blog/introduction-to-using-r-to-evaluate-census-data)
 
 [Using R To Extract Census Data from Statistics Canada](https://sjkiss.github.io/post/using-r-to-extract-census-data-from-statistics-canada/)
+
+### QGIS
 
 [Introduction to QGIS and Geoprocessing using the Census of Canada](http://www.davidmckie.com/JOUR4208Handout_2017_final_Oct23.pdf)
 
